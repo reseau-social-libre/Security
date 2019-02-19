@@ -1,0 +1,1315 @@
+[2019-02-19 23:24:06,673] DEBUG    PluginManager Loading plugin: AnnounceLocal
+[2019-02-19 23:24:06,740] DEBUG    PluginManager New plugin registered to: SiteAnnouncer
+[2019-02-19 23:24:06,740] DEBUG    PluginManager New plugin registered to: FileServer
+[2019-02-19 23:24:06,740] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2019-02-19 23:24:06,740] DEBUG    PluginManager Loading plugin: AnnounceShare
+[2019-02-19 23:24:06,749] DEBUG    TrackerStorage Loaded 0 shared trackers
+[2019-02-19 23:24:06,749] DEBUG    PluginManager New plugin registered to: SiteAnnouncer
+[2019-02-19 23:24:06,749] DEBUG    PluginManager New plugin registered to: FileRequest
+[2019-02-19 23:24:06,749] DEBUG    PluginManager New plugin registered to: FileServer
+[2019-02-19 23:24:06,749] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2019-02-19 23:24:06,749] DEBUG    PluginManager Loading plugin: AnnounceZero
+[2019-02-19 23:24:06,751] DEBUG    PluginManager New plugin registered to: SiteAnnouncer
+[2019-02-19 23:24:06,751] DEBUG    PluginManager Loading plugin: Bigfile
+[2019-02-19 23:24:06,772] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,772] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,772] DEBUG    PluginManager New plugin registered to: ContentManager
+[2019-02-19 23:24:06,772] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2019-02-19 23:24:06,772] DEBUG    PluginManager New plugin registered to: WorkerManager
+[2019-02-19 23:24:06,772] DEBUG    PluginManager New plugin registered to: FileRequest
+[2019-02-19 23:24:06,772] DEBUG    PluginManager New plugin registered to: Peer
+[2019-02-19 23:24:06,773] DEBUG    PluginManager New plugin registered to: Site
+[2019-02-19 23:24:06,773] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2019-02-19 23:24:06,773] DEBUG    PluginManager Loading plugin: Chart
+[2019-02-19 23:24:06,782] DEBUG    Db:Chart Db file not exist yet: ./data/chart.db
+[2019-02-19 23:24:06,783] DEBUG    Db:Chart Connected to ./data/chart.db in 0.000s (opened: 1, sqlite version: 2.6.0)...
+[2019-02-19 23:24:06,783] DEBUG    Db:Chart Query error: no such table: keyvalue
+[2019-02-19 23:24:06,783] INFO     Db:Chart Table keyvalue outdated...version: False need: 1, rebuilding...
+[2019-02-19 23:24:06,784] INFO     Db:Chart Table json outdated...version: 0 need: 1, rebuilding...
+[2019-02-19 23:24:06,784] INFO     Db:Chart Table type outdated...version: 0 need: 1, rebuilding...
+[2019-02-19 23:24:06,784] INFO     Db:Chart Table data outdated...version: 0 need: 2, rebuilding...
+[2019-02-19 23:24:06,785] INFO     Db:Chart Table site outdated...version: 0 need: 1, rebuilding...
+[2019-02-19 23:24:06,785] DEBUG    Db:Chart Db check done in 0.003s, changed tables: ['keyvalue', 'json', 'type', 'data', 'site']
+[2019-02-19 23:24:06,785] DEBUG    PluginManager New plugin registered to: SiteManager
+[2019-02-19 23:24:06,785] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,785] DEBUG    PluginManager Loading plugin: ContentFilter
+[2019-02-19 23:24:06,822] DEBUG    PluginManager New plugin registered to: SiteManager
+[2019-02-19 23:24:06,822] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,822] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2019-02-19 23:24:06,822] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,822] DEBUG    PluginManager Loading plugin: Cors
+[2019-02-19 23:24:06,824] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,824] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,824] DEBUG    PluginManager Loading plugin: CryptMessage
+[2019-02-19 23:24:06,863] DEBUG    - Opening ../lib/libcrypto.so...
+[2019-02-19 23:24:06,863] DEBUG    - Disable SSL compression failed: /home/shadow75/RSL/RSL_org/Security/Hosting/ZeroBundle/lib/python2.7/lib-dynload/../../libcrypto.so.1.0.0: undefined symbol: SSL_COMP_get_compression_methods (normal on Windows)
+[2019-02-19 23:24:06,863] DEBUG    - Missing SSLwrap, readded.
+[2019-02-19 23:24:06,863] DEBUG    - Python SSL version: OpenSSL 1.0.2g  1 Mar 2016
+[2019-02-19 23:24:06,863] DEBUG    - opensslVerify loaded: <CDLL '../lib/libcrypto.so', handle da8d80 at 7f5aeff09f50>
+[2019-02-19 23:24:06,865] INFO     - OpenSSL loaded, version: 01000207F
+[2019-02-19 23:24:06,865] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,865] DEBUG    PluginManager New plugin registered to: User
+[2019-02-19 23:24:06,865] DEBUG    PluginManager Loading plugin: FilePack
+[2019-02-19 23:24:06,867] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,867] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2019-02-19 23:24:06,867] DEBUG    PluginManager Loading plugin: MergerSite
+[2019-02-19 23:24:06,876] DEBUG    PluginManager New plugin registered to: ContentDb
+[2019-02-19 23:24:06,876] DEBUG    PluginManager New plugin registered to: ContentManager
+[2019-02-19 23:24:06,876] DEBUG    PluginManager New plugin registered to: WorkerManager
+[2019-02-19 23:24:06,876] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,877] DEBUG    PluginManager New plugin registered to: FileRequest
+[2019-02-19 23:24:06,877] DEBUG    PluginManager New plugin registered to: Site
+[2019-02-19 23:24:06,877] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2019-02-19 23:24:06,881] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,881] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,882] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,882] DEBUG    PluginManager New plugin registered to: SiteStorage
+[2019-02-19 23:24:06,882] DEBUG    PluginManager New plugin registered to: Site
+[2019-02-19 23:24:06,882] DEBUG    PluginManager New plugin registered to: SiteManager
+[2019-02-19 23:24:06,882] DEBUG    PluginManager Loading plugin: Newsfeed
+[2019-02-19 23:24:06,884] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,884] DEBUG    PluginManager New plugin registered to: User
+[2019-02-19 23:24:06,884] DEBUG    PluginManager Loading plugin: OptionalManager
+[2019-02-19 23:24:06,884] DEBUG    PluginManager Loading plugin: PeerDb
+[2019-02-19 23:24:06,885] DEBUG    PluginManager New plugin registered to: ContentDb
+[2019-02-19 23:24:06,885] DEBUG    PluginManager Loading plugin: Sidebar
+[2019-02-19 23:24:06,904] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,904] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,905] DEBUG    PluginManager Loading plugin: Stats
+[2019-02-19 23:24:06,910] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,911] DEBUG    PluginManager Loading plugin: TranslateSite
+[2019-02-19 23:24:06,912] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,912] DEBUG    PluginManager Loading plugin: Trayicon
+[2019-02-19 23:24:06,912] DEBUG    PluginManager Loading plugin: UiConfig
+[2019-02-19 23:24:06,913] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,913] DEBUG    PluginManager New plugin registered to: UiWebsocket
+[2019-02-19 23:24:06,913] DEBUG    PluginManager Loading plugin: Zeroname
+[2019-02-19 23:24:06,914] DEBUG    PluginManager New plugin registered to: UiRequest
+[2019-02-19 23:24:06,914] DEBUG    PluginManager New plugin registered to: ConfigPlugin
+[2019-02-19 23:24:06,914] DEBUG    PluginManager New plugin registered to: SiteManager
+[2019-02-19 23:24:06,914] DEBUG    PluginManager Plugins loaded in 0.242s
+[2019-02-19 23:24:06,918] DEBUG    PluginManager New class accepts plugins: Peer (Loaded plugins: [<class 'Bigfile.BigfilePlugin.PeerPlugin'>, <class 'Peer.Peer.Peer'>])
+[2019-02-19 23:24:06,930] DEBUG    PluginManager New class accepts plugins: WorkerManager (Loaded plugins: [<class 'OptionalManager.OptionalManagerPlugin.WorkerManagerPlugin'>, <class 'Bigfile.BigfilePlugin.WorkerManagerPlugin'>, <class 'Worker.WorkerManager.WorkerManager'>])
+[2019-02-19 23:24:06,947] DEBUG    PluginManager New class accepts plugins: ContentDb (Loaded plugins: [<class 'PeerDb.PeerDbPlugin.ContentDbPlugin'>, <class 'OptionalManager.ContentDbPlugin.ContentDbPlugin'>, <class 'Content.ContentDb.ContentDb'>])
+[2019-02-19 23:24:06,947] DEBUG    Db:ContentDb Db file not exist yet: ./data/content.db
+[2019-02-19 23:24:06,947] DEBUG    Db:ContentDb Connected to ./data/content.db in 0.000s (opened: 2, sqlite version: 2.6.0)...
+[2019-02-19 23:24:06,947] DEBUG    Db:ContentDb Query error: no such table: keyvalue
+[2019-02-19 23:24:06,947] DEBUG    Db:ContentDb Migrating from table version-less content.db
+[2019-02-19 23:24:06,947] DEBUG    Db:ContentDb Query error: no such table: keyvalue
+[2019-02-19 23:24:06,948] INFO     Db:ContentDb Table keyvalue outdated...version: False need: 3, rebuilding...
+[2019-02-19 23:24:06,948] INFO     Db:ContentDb Table json outdated...version: 0 need: 3, rebuilding...
+[2019-02-19 23:24:06,948] INFO     Db:ContentDb Table content outdated...version: 0 need: 1, rebuilding...
+[2019-02-19 23:24:06,949] INFO     Db:ContentDb Table peer outdated...version: 0 need: 2, rebuilding...
+[2019-02-19 23:24:06,949] INFO     Db:ContentDb Table file_optional outdated...version: 0 need: 11, rebuilding...
+[2019-02-19 23:24:06,949] INFO     Db:ContentDb Table site outdated...version: 0 need: 1, rebuilding...
+[2019-02-19 23:24:06,950] DEBUG    Db:ContentDb Db check done in 0.002s, changed tables: ['keyvalue', 'json', 'content', 'peer', 'file_optional', 'site']
+[2019-02-19 23:24:06,950] DEBUG    Db:ContentDb Checking foreign keys...
+[2019-02-19 23:24:06,950] DEBUG    PluginManager New class accepts plugins: ContentManager (Loaded plugins: [<class 'OptionalManager.OptionalManagerPlugin.ContentManagerPlugin'>, <class 'Bigfile.BigfilePlugin.ContentManagerPlugin'>, <class 'Content.ContentManager.ContentManager'>])
+[2019-02-19 23:24:06,954] DEBUG    PluginManager New class accepts plugins: SiteStorage (Loaded plugins: [<class 'MergerSite.MergerSitePlugin.SiteStoragePlugin'>, <class 'FilePack.FilePackPlugin.SiteStoragePlugin'>, <class 'ContentFilter.ContentFilterPlugin.SiteStoragePlugin'>, <class 'Bigfile.BigfilePlugin.SiteStoragePlugin'>, <class 'Site.SiteStorage.SiteStorage'>])
+[2019-02-19 23:24:06,966] DEBUG    PluginManager New class accepts plugins: FileRequest (Loaded plugins: [<class 'OptionalManager.OptionalManagerPlugin.FileRequestPlugin'>, <class 'Bigfile.BigfilePlugin.FileRequestPlugin'>, <class 'AnnounceShare.AnnounceSharePlugin.FileRequestPlugin'>, <class 'File.FileRequest.FileRequest'>])
+[2019-02-19 23:24:06,968] DEBUG    PluginManager New class accepts plugins: SiteManager (Loaded plugins: [<class 'Zeroname.SiteManagerPlugin.SiteManagerPlugin'>, <class 'MergerSite.MergerSitePlugin.SiteManagerPlugin'>, <class 'ContentFilter.ContentFilterPlugin.SiteManagerPlugin'>, <class 'Chart.ChartPlugin.SiteManagerPlugin'>, <class 'Site.SiteManager.SiteManager'>])
+[2019-02-19 23:24:06,968] DEBUG    SiteManager SiteManager created.
+[2019-02-19 23:24:06,992] DEBUG    PluginManager New class accepts plugins: FileServer (Loaded plugins: [<class 'AnnounceShare.AnnounceSharePlugin.FileServerPlugin'>, <class 'AnnounceLocal.AnnounceLocalPlugin.FileServerPlugin'>, <class 'File.FileServer.FileServer'>])
+[2019-02-19 23:24:06,998] DEBUG    PluginManager New class accepts plugins: SiteAnnouncer (Loaded plugins: [<class 'AnnounceZero.AnnounceZeroPlugin.SiteAnnouncerPlugin'>, <class 'AnnounceShare.AnnounceSharePlugin.SiteAnnouncerPlugin'>, <class 'AnnounceLocal.AnnounceLocalPlugin.SiteAnnouncerPlugin'>, <class 'Site.SiteAnnouncer.SiteAnnouncer'>])
+[2019-02-19 23:24:06,998] DEBUG    PluginManager New class accepts plugins: Site (Loaded plugins: [<class 'MergerSite.MergerSitePlugin.SitePlugin'>, <class 'OptionalManager.OptionalManagerPlugin.SitePlugin'>, <class 'Bigfile.BigfilePlugin.SitePlugin'>, <class 'Site.Site.Site'>])
+[2019-02-19 23:24:07,020] DEBUG    PluginManager New class accepts plugins: User (Loaded plugins: [<class 'Newsfeed.NewsfeedPlugin.UserPlugin'>, <class 'CryptMessage.CryptMessagePlugin.UserPlugin'>, <class 'User.User.User'>])
+[2019-02-19 23:24:07,031] DEBUG    PluginManager New class accepts plugins: UiWebsocket (Loaded plugins: [<class 'UiConfig.UiConfigPlugin.UiWebsocketPlugin'>, <class 'Sidebar.SidebarPlugin.UiWebsocketPlugin'>, <class 'Newsfeed.NewsfeedPlugin.UiWebsocketPlugin'>, <class 'MergerSite.MergerSitePlugin.UiWebsocketPlugin'>, <class 'OptionalManager.UiWebsocketPlugin.UiWebsocketPlugin'>, <class 'CryptMessage.CryptMessagePlugin.UiWebsocketPlugin'>, <class 'Cors.CorsPlugin.UiWebsocketPlugin'>, <class 'ContentFilter.ContentFilterPlugin.UiWebsocketPlugin'>, <class 'Chart.ChartPlugin.UiWebsocketPlugin'>, <class 'Bigfile.BigfilePlugin.UiWebsocketPlugin'>, <class 'Ui.UiWebsocket.UiWebsocket'>])
+[2019-02-19 23:24:07,031] DEBUG    PluginManager New class accepts plugins: UiRequest (Loaded plugins: [<class 'Zeroname.UiRequestPlugin.UiRequestPlugin'>, <class 'UiConfig.UiConfigPlugin.UiRequestPlugin'>, <class 'TranslateSite.TranslateSitePlugin.UiRequestPlugin'>, <class 'Stats.StatsPlugin.UiRequestPlugin'>, <class 'Sidebar.SidebarPlugin.UiRequestPlugin'>, <class 'MergerSite.MergerSitePlugin.UiRequestPlugin'>, <class 'OptionalManager.OptionalManagerPlugin.UiRequestPlugin'>, <class 'FilePack.FilePackPlugin.UiRequestPlugin'>, <class 'Cors.CorsPlugin.UiRequestPlugin'>, <class 'ContentFilter.ContentFilterPlugin.UiRequestPlugin'>, <class 'Bigfile.BigfilePlugin.UiRequestPlugin'>, <class 'Ui.UiRequest.UiRequest'>])
+[2019-02-19 23:24:07,031] DEBUG    PluginManager New class accepts plugins: ConfigPlugin (Loaded plugins: [<class 'Zeroname.UiRequestPlugin.ConfigPlugin'>, <class 'OptionalManager.OptionalManagerPlugin.ConfigPlugin'>, <class 'Bigfile.BigfilePlugin.ConfigPlugin'>, <class 'AnnounceShare.AnnounceSharePlugin.ConfigPlugin'>, <class 'AnnounceLocal.AnnounceLocalPlugin.ConfigPlugin'>, <class 'Config.ConfigPlugin'>])
+[2019-02-19 23:24:07,032] DEBUG    - Config: Config(action='main', autodownload_bigfile_size_limit=1, batch=False, bigfile_size_limit=False, bind=None, bit_resolver='1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F', broadcast_port=1544, coffeescript_compiler=None, config_file='./zeronet.conf', connected_limit=8, data_dir='./data', db_mode='speed', debug=False, debug_socket=False, disable_db=False, disable_encryption=False, disable_sslcompression=True, disable_udp=False, download_optional='manual', end=True, file_size_limit=10, fileserver_ip='*', fileserver_ip_type='dual', fileserver_port=0, fileserver_port_range='10000-40000', fix_float_decimals=False, force_encryption=False, global_connected_limit=512, homepage='1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D', ip_external=None, ip_local=['127.0.0.1', '::1'], keep_ssl_cert=False, language='en', log_dir='./log', log_level='DEBUG', log_rotate='daily', log_rotate_backup_count=5, max_files_opened=2048, msgpack_purepython=False, open_browser='default_browser', optional_limit='10%', optional_limit_exclude_minsize=20, proxy=None, silent=False, size_limit=10, stack_size=None, stream_downloads=False, tor='enable', tor_controller='127.0.0.1:9051', tor_hs_limit=10, tor_hs_port=15441, tor_password=None, tor_proxy='127.0.0.1:9050', tor_use_bridges=False, trackers=['zero://boot3rdez4rzn36x.onion:15441', 'zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443', 'udp://tracker.coppersurfer.tk:6969', 'udp://tracker.port443.xyz:6969', 'udp://104.238.198.186:8000', 'http://tracker2.itzmx.com:6961/announce', 'http://open.acgnxtracker.com:80/announce', 'http://open.trackerlist.xyz:80/announce', 'https://1.tracker.eu.org:443/announce', 'zero://2602:ffc5::c5b2:5360:26312'], trackers_file=False, trackers_proxy='disable', ui_host=None, ui_ip='127.0.0.1', ui_port=43110, ui_restrict=False, ui_trans_proxy=False, updatesite='1UPDatEDxnvHDo7TXvq6AEBARfNkyfxsp', use_openssl=True, use_tempfiles=False, verbose=False, workers=5, working_shared_trackers_limit=5)
+[2019-02-19 23:24:07,032] INFO     - Version: 0.6.5 r3852, Python 2.7.11 |Continuum Analytics, Inc.| (default, Dec  6 2015, 18:08:32) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)], Gevent: 1.0.2
+[2019-02-19 23:24:07,032] INFO     - Creating FileServer....
+[2019-02-19 23:24:07,039] DEBUG    - Gevent block checker started
+[2019-02-19 23:24:07,039] ERROR    FileServer IPv6 not supported: [Errno 101] Network is unreachable
+[2019-02-19 23:24:07,039] INFO     FileServer Getting random port in range 10000-40000...
+[2019-02-19 23:24:07,039] INFO     FileServer Found unused random port: 34411
+[2019-02-19 23:24:07,039] DEBUG    ConnServer Supported IP types: ['ipv4']
+[2019-02-19 23:24:07,040] INFO     - Creating UiServer....
+[2019-02-19 23:24:07,040] DEBUG    SiteManager Sites not loaded yet...
+[2019-02-19 23:24:07,040] DEBUG    SiteManager Loading sites...
+[2019-02-19 23:24:07,040] DEBUG    ContentFilterStorage Loaded 0 mutes, 0 blocked sites from 0 includes in 0.000s
+[2019-02-19 23:24:07,040] DEBUG    SiteManager Added new site: 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F
+[2019-02-19 23:24:07,041] DEBUG    Site:1Name2..hM9F ContentDb init: 0.000s, found files: 0, sites: 1
+[2019-02-19 23:24:07,041] DEBUG    Site:1Name2..hM9F ContentDb not initialized, load files from filesystem
+[2019-02-19 23:24:07,041] DEBUG    Site:1Name2..hM9F Content.json not exist: ./data/1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/content.json
+[2019-02-19 23:24:07,048] DEBUG    UserManager Created user: 16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t
+[2019-02-19 23:24:07,066] DEBUG    User:16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t Added new site: 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F in 0.018s
+[2019-02-19 23:24:07,066] DEBUG    Db:ContentDb Filled file_optional table for 1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F in 0.024s (loaded: 0, is_pinned: 0)
+[2019-02-19 23:24:07,067] DEBUG    Site:1Name2..hM9F New auth key: b9cde076a142f572489d5671185ee357c75f0d04ed59f78682f8c6605ea47a03
+[2019-02-19 23:24:07,067] DEBUG    Site:1Name2..hM9F New wrapper key: e0849206f7c018f578d62c507fcbaf26197d1bf62e383437510c24e6d2df7185
+[2019-02-19 23:24:07,067] DEBUG    Site:1Name2..hM9F New ajax key: 9e3933ca13806b96b67babaf9497181ab56d814883dc3d9f68ca628a8f708537
+[2019-02-19 23:24:07,120] DEBUG    SiteManager Saved sites in 0.05s (generate: 0.00s, write: 0.05s)
+[2019-02-19 23:24:07,120] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:07,121] INFO     - Removing old SSL certs...
+[2019-02-19 23:24:07,121] INFO     - Starting servers....
+[2019-02-19 23:24:07,121] DEBUG    Site:1Name2..hM9F Start downloading, bad_files: {}, check_size: True, blind_includes: True
+[2019-02-19 23:24:07,122] DEBUG    Site:1Name2..hM9F Need content.json first
+[2019-02-19 23:24:07,122] DEBUG    WorkerManager:1Name2..hM9F New task: content.json, peer lock: None, priority: 10000, optional_hash_id: None, tasks started: 1
+[2019-02-19 23:24:07,122] DEBUG    WorkerManager:1Name2..hM9F Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:07,122] DEBUG    Site:1Name2..hM9F Recent peers 0 of 0 (need: 5)
+[2019-02-19 23:24:07,122] INFO     Ui.UiServer --------------------------------------
+[2019-02-19 23:24:07,123] INFO     Ui.UiServer Web interface: http://127.0.0.1:43110/
+[2019-02-19 23:24:07,123] INFO     Ui.UiServer --------------------------------------
+[2019-02-19 23:24:07,123] INFO     - Opening browser: default_browser...
+[2019-02-19 23:24:07,139] DEBUG    - Current RLIMIT_NOFILE: 1024 (max: 1048576), changing to 2048...
+[2019-02-19 23:24:07,254] DEBUG    - Generating RSA cert and key PEM files...Generating a RSA private key
+....................+++++
+..+++++
+writing new private key to './data/key-rsa.pem'
+-----
+[2019-02-19 23:24:07,254] DEBUG    TorManager Starting (Tor: enable)
+[2019-02-19 23:24:07,254] INFO     TorManager Connecting to Tor Controller 127.0.0.1:9051
+[2019-02-19 23:24:07,255] DEBUG    BroadcastServer Started on port 1544
+[2019-02-19 23:24:07,255] DEBUG    BroadcastServer Sending discover request (force: True)
+[2019-02-19 23:24:07,256] DEBUG    Site:1Name2..hM9F Force reannounce in mode start
+[2019-02-19 23:24:07,257] DEBUG    BroadcastServer Sending discover request (force: False)
+[2019-02-19 23:24:07,257] DEBUG    TrackerStorage Trackers discovered from 0/0 peers in 0.000s
+[2019-02-19 23:24:07,258] DEBUG    ConnServer Conn# 1 boot3rdez4rzn36x.onion [?] > Connecting... (site: None)
+[2019-02-19 23:24:07,258] DEBUG    TorManager Creating new Tor socket to boot3rdez4rzn36x.onion:15441
+[2019-02-19 23:24:07,258] DEBUG    TorManager Waiting for startup...
+[2019-02-19 23:24:07,258] DEBUG    ConnServer Conn# 2 zero.booth.moe [?] > Connecting... (site: None)
+[2019-02-19 23:24:07,274] ERROR    TorManager Tor controller connect error: error: [Errno 111] Connection refused in TorManager.py line 190 > socket.py line 344
+[2019-02-19 23:24:07,275] INFO     TorManager Disabling Tor, because error while accessing Tor proxy at port 127.0.0.1:9050: No connection
+[2019-02-19 23:24:07,275] DEBUG    ConnServer Binding to: 0.0.0.0:34411, (msgpack: 0.4.6), supported crypt: ['tls-rsa']
+[2019-02-19 23:24:07,276] DEBUG    ConnServer Checking sites...
+[2019-02-19 23:24:07,284] DEBUG    Site:1Name2..hM9F Content.json not exist: ./data/1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/content.json
+[2019-02-19 23:24:07,284] DEBUG    BroadcastServer Broadcast using ips ['192.168.1.41'] on port 1544: discoverRequest
+[2019-02-19 23:24:07,285] DEBUG    BroadcastServer Broadcast using ips ['192.168.1.41'] on port 1544: discoverRequest
+[2019-02-19 23:24:07,286] DEBUG    ConnServer Conn# 1 boot3rdez4rzn36x.onion [?] > Closing connection: boot3rdez4rzn36x.onion Connect error: ProxyConnectionError: Error connecting to SOCKS5 proxy 127.0.0.1:49050: [Errno 111] Connection refused in ConnectionServer.py line 197 > Connection.py line 150 > socks.py line 674, waiting_requests: 0, sites: 0, buff: 0...
+[2019-02-19 23:24:07,286] WARNING  Site:1Name2..hM9F Tracker zero://boot3rdez4rzn36x.onion:15441 announce failed: Invalid response: None in mode start
+[2019-02-19 23:24:07,286] DEBUG    BroadcastServer Got from ('192.168.1.41', 40246): discoverRequest
+[2019-02-19 23:24:07,286] DEBUG    BroadcastServer Got from ('192.168.1.41', 50656): discoverRequest
+[2019-02-19 23:24:07,290] WARNING  Site:1Name2..hM9F Tracker http://tracker2.itzmx.com:6961/announce announce failed: <urlopen error [Errno -5] No address associated with hostname> in mode start
+[2019-02-19 23:24:07,349] DEBUG    WorkerManager:1Name2..hM9F Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:07,349] DEBUG    Site:1Name2..hM9F Recent peers 19 of 19 (need: 5)
+[2019-02-19 23:24:07,349] DEBUG    WorkerManager:1Name2..hM9F Added worker: 89.10.182.142:31683, workers: 1/5
+[2019-02-19 23:24:07,350] DEBUG    WorkerManager:1Name2..hM9F Added worker: 104.248.189.28:17990, workers: 2/5
+[2019-02-19 23:24:07,350] DEBUG    WorkerManager:1Name2..hM9F Added worker: 81.29.248.17:34254, workers: 3/5
+[2019-02-19 23:24:07,350] DEBUG    WorkerManager:1Name2..hM9F Added worker: 95.179.167.244:17398, workers: 4/5
+[2019-02-19 23:24:07,350] DEBUG    WorkerManager:1Name2..hM9F Added worker: 173.255.223.86:37983, workers: 5/5
+[2019-02-19 23:24:07,350] DEBUG    ConnServer Conn# 3 89.10.182.142 [?] > Connecting... (site: Site 1Name2..hM9F)
+[2019-02-19 23:24:07,471] WARNING  Site:1Name2..hM9F Tracker http://open.trackerlist.xyz:80/announce announce failed: <urlopen error [Errno -5] No address associated with hostname> in mode start
+[2019-02-19 23:24:07,509] WARNING  Site:1Name2..hM9F Tracker http://open.acgnxtracker.com:80/announce announce failed: [Errno 104] Connection reset by peer in mode start
+[2019-02-19 23:24:07,568] DEBUG    Site:1Name2..hM9F 0 peers (0 with hashfield) loaded in 0.000s
+[2019-02-19 23:24:07,685] WARNING  Site:1Name2..hM9F Tracker udp://tracker.coppersurfer.tk:6969 announce failed: [Errno -5] No address associated with hostname in mode start
+[2019-02-19 23:24:08,063] WARNING  Site:1Name2..hM9F Tracker https://1.tracker.eu.org:443/announce announce failed: <urlopen error [Errno -2] Name or service not known> in mode start
+[2019-02-19 23:24:08,067] DEBUG    Db:ContentDb Loaded 0 optional files: 0.00MB, downloaded: 0.00MB in 0.000s
+[2019-02-19 23:24:08,077] WARNING  PeerPortchecker checkPortchecker check error: URLError: <urlopen error [Errno -5] No address associated with hostname> in PeerPortchecker.py line 49 > PeerPortchecker.py line 88 > urllib2.py line 154 > urllib2.py line 431 > urllib2.py line 449 > urllib2.py line 409 > urllib2.py line 1240 > urllib2.py line 1197 in 0.801s
+[2019-02-19 23:24:08,105] DEBUG    WorkerManager:1Name2..hM9F 89.10.182.142:31683: Verify correct: content.json
+[2019-02-19 23:24:08,144] DEBUG    SiteManager Saved sites in 0.04s (generate: 0.00s, write: 0.04s)
+[2019-02-19 23:24:08,144] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:08,144] DEBUG    Site:1Name2..hM9F content.json loadContent same json file, skipping
+[2019-02-19 23:24:08,177] DEBUG    SiteManager Saved sites in 0.03s (generate: 0.00s, write: 0.03s)
+[2019-02-19 23:24:08,177] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:08,177] DEBUG    WorkerManager:1Name2..hM9F New task: index.html, peer lock: None, priority: 9998, optional_hash_id: None, tasks started: 2
+[2019-02-19 23:24:08,178] DEBUG    WorkerManager:1Name2..hM9F New task: data/names.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 3
+[2019-02-19 23:24:08,178] DEBUG    WorkerManager:1Name2..hM9F New task: css/all.css, peer lock: None, priority: 14, optional_hash_id: None, tasks started: 4
+[2019-02-19 23:24:08,178] DEBUG    WorkerManager:1Name2..hM9F New task: js/all.js, peer lock: None, priority: 13, optional_hash_id: None, tasks started: 5
+[2019-02-19 23:24:08,178] DEBUG    Site:1Name2..hM9F Recent peers 19 of 19 (need: 25)
+[2019-02-19 23:24:08,179] DEBUG    ConnServer Conn# 4 104.248.189.28 [?] > Connecting... (site: Site 1Name2..hM9F)
+[2019-02-19 23:24:08,245] DEBUG    ConnServer Conn# 5 81.29.248.17 [?] > Connecting... (site: Site 1Name2..hM9F)
+[2019-02-19 23:24:08,248] DEBUG    ConnServer Conn# 6 95.179.167.244 [?] > Connecting... (site: Site 1Name2..hM9F)
+[2019-02-19 23:24:08,254] DEBUG    Site:1Name2..hM9F Tracker announce result: zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 (sites: 1, new peers: 19) in 0.996s
+[2019-02-19 23:24:08,631] INFO     Ui.UiServer Added 127.0.0.1:43110 as allowed host
+[2019-02-19 23:24:08,697] DEBUG    SiteManager Added new site: 1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D
+[2019-02-19 23:24:08,698] DEBUG    Site:1HeLLo..Tf3D ContentDb init: 0.001s, found files: 0, sites: 2
+[2019-02-19 23:24:08,699] DEBUG    Site:1HeLLo..Tf3D ContentDb not initialized, load files from filesystem
+[2019-02-19 23:24:08,699] DEBUG    Site:1HeLLo..Tf3D Content.json not exist: ./data/1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/content.json
+[2019-02-19 23:24:08,729] DEBUG    User:16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t Added new site: 1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D in 0.029s
+[2019-02-19 23:24:08,729] DEBUG    Db:ContentDb Filled file_optional table for 1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D in 0.030s (loaded: 0, is_pinned: 0)
+[2019-02-19 23:24:08,730] DEBUG    Site:1HeLLo..Tf3D New auth key: 36f732f0cf992fae9b38c77821c1c30037f91ce63c2baf69d966af721f827684
+[2019-02-19 23:24:08,730] DEBUG    Site:1HeLLo..Tf3D New wrapper key: 6048b59f688da77a1c2986c14af3687fe9f02794a9acbf3f229610ecc8a1f262
+[2019-02-19 23:24:08,730] DEBUG    Site:1HeLLo..Tf3D New ajax key: bf977c19770e57d4d22fd44e115d5415543968bc9df19958a5e005ea89338f08
+[2019-02-19 23:24:08,772] DEBUG    SiteManager Saved sites in 0.04s (generate: 0.00s, write: 0.04s)
+[2019-02-19 23:24:08,772] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:08,773] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:08] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D HTTP/1.1" 200 4806 0.142480
+[2019-02-19 23:24:08,774] DEBUG    Site:1HeLLo..Tf3D Start downloading, bad_files: {}, check_size: True, blind_includes: True
+[2019-02-19 23:24:08,774] DEBUG    Site:1HeLLo..Tf3D Need content.json first
+[2019-02-19 23:24:08,774] DEBUG    WorkerManager:1HeLLo..Tf3D New task: content.json, peer lock: None, priority: 10000, optional_hash_id: None, tasks started: 1
+[2019-02-19 23:24:08,774] DEBUG    WorkerManager:1HeLLo..Tf3D Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:08,774] DEBUG    Site:1HeLLo..Tf3D Recent peers 0 of 0 (need: 5)
+[2019-02-19 23:24:08,774] DEBUG    BroadcastServer Sending discover request (force: True)
+[2019-02-19 23:24:08,774] DEBUG    Site:1HeLLo..Tf3D Force reannounce in mode start
+[2019-02-19 23:24:08,775] DEBUG    TrackerStorage Trackers discovered from 0/0 peers in 0.000s
+[2019-02-19 23:24:08,791] DEBUG    BroadcastServer Broadcast using ips ['192.168.1.41'] on port 1544: discoverRequest
+[2019-02-19 23:24:08,791] DEBUG    BroadcastServer Got from ('192.168.1.41', 55172): discoverRequest
+[2019-02-19 23:24:08,801] WARNING  Site:1HeLLo..Tf3D Tracker http://tracker2.itzmx.com:6961/announce announce failed: <urlopen error [Errno -5] No address associated with hostname> in mode start
+[2019-02-19 23:24:08,932] DEBUG    WorkerManager:1HeLLo..Tf3D Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:08,932] DEBUG    Site:1HeLLo..Tf3D Recent peers 7 of 7 (need: 5)
+[2019-02-19 23:24:08,932] DEBUG    WorkerManager:1HeLLo..Tf3D Added worker: 92.9.207.76:15441, workers: 1/5
+[2019-02-19 23:24:08,933] DEBUG    WorkerManager:1HeLLo..Tf3D Added worker: 109.180.34.171:31012, workers: 2/5
+[2019-02-19 23:24:08,933] DEBUG    WorkerManager:1HeLLo..Tf3D Added worker: 136.61.22.74:14197, workers: 3/5
+[2019-02-19 23:24:08,933] DEBUG    WorkerManager:1HeLLo..Tf3D Added worker: 155.94.137.22:26679, workers: 4/5
+[2019-02-19 23:24:08,933] DEBUG    WorkerManager:1HeLLo..Tf3D Added worker: 128.65.247.206:15441, workers: 5/5
+[2019-02-19 23:24:08,933] DEBUG    Site:1HeLLo..Tf3D Tracker announce result: zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 (sites: 1, new peers: 7) in 0.158s
+[2019-02-19 23:24:08,933] DEBUG    ConnServer Conn# 7 92.9.207.76  [?] > Connecting... (site: Site 1HeLLo..Tf3D)
+[2019-02-19 23:24:09,114] WARNING  PeerPortchecker checkCanyouseeme check error: AttributeError: 'NoneType' object has no attribute 'group' in PeerPortchecker.py line 49 > PeerPortchecker.py line 71 in 1.037s
+[2019-02-19 23:24:09,114] INFO     PeerPortchecker Trying to open port using UpnpPunch...
+[2019-02-19 23:24:09,114] DEBUG    - Trying to open port 34411.
+[2019-02-19 23:24:09,116] DEBUG    - Trying using local ip: 192.168.1.41
+[2019-02-19 23:24:09,157] DEBUG    WorkerManager:1Name2..hM9F 104.248.189.28:17990: Verify correct: index.html
+[2019-02-19 23:24:09,158] DEBUG    Site:1Name2..hM9F Queried listModifications from: [<Peer:89.10.182.142>, <Peer:89.10.182.142>, <Peer:95.179.167.244>, <Peer:81.29.248.17>, <Peer:104.248.189.28>] in 0.980s since 0
+[2019-02-19 23:24:09,176] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: content.json
+[2019-02-19 23:24:09,218] DEBUG    SiteManager Saved sites in 0.04s (generate: 0.00s, write: 0.04s)
+[2019-02-19 23:24:09,218] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:09,218] DEBUG    Site:1HeLLo..Tf3D content.json loadContent same json file, skipping
+[2019-02-19 23:24:09,277] DEBUG    SiteManager Saved sites in 0.06s (generate: 0.00s, write: 0.06s)
+[2019-02-19 23:24:09,277] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:09,277] DEBUG    WorkerManager:1HeLLo..Tf3D New task: img/logo_big.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 2
+[2019-02-19 23:24:09,278] DEBUG    WorkerManager:1HeLLo..Tf3D New task: css/all.css, peer lock: None, priority: 14, optional_hash_id: None, tasks started: 3
+[2019-02-19 23:24:09,278] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/hu.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 4
+[2019-02-19 23:24:09,279] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/sl.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 5
+[2019-02-19 23:24:09,279] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/nl.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 6
+[2019-02-19 23:24:09,279] DEBUG    WorkerManager:1HeLLo..Tf3D New task: img/loading-circle.gif, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 7
+[2019-02-19 23:24:09,280] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/ru.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 8
+[2019-02-19 23:24:09,280] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/pl.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 9
+[2019-02-19 23:24:09,280] DEBUG    WorkerManager:1HeLLo..Tf3D New task: chartjs/chart.bundle.min.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 10
+[2019-02-19 23:24:09,281] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/tr.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 11
+[2019-02-19 23:24:09,281] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/sk.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 12
+[2019-02-19 23:24:09,281] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/es.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 13
+[2019-02-19 23:24:09,282] DEBUG    WorkerManager:1HeLLo..Tf3D New task: img/world.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 14
+[2019-02-19 23:24:09,282] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/pt.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 15
+[2019-02-19 23:24:09,282] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/fr.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 16
+[2019-02-19 23:24:09,283] DEBUG    WorkerManager:1HeLLo..Tf3D New task: template-new/content.json-default, peer lock: None, priority: -4, optional_hash_id: None, tasks started: 17
+[2019-02-19 23:24:09,283] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/pt-br.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 18
+[2019-02-19 23:24:09,284] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/zh-tw.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 19
+[2019-02-19 23:24:09,284] DEBUG    WorkerManager:1HeLLo..Tf3D New task: img/logo.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 20
+[2019-02-19 23:24:09,284] DEBUG    WorkerManager:1HeLLo..Tf3D New task: js/all.js, peer lock: None, priority: 13, optional_hash_id: None, tasks started: 21
+[2019-02-19 23:24:09,284] DEBUG    WorkerManager:1HeLLo..Tf3D New task: img/logo.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 22
+[2019-02-19 23:24:09,285] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/zh.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 23
+[2019-02-19 23:24:09,285] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/it.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 24
+[2019-02-19 23:24:09,285] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/jp.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 25
+[2019-02-19 23:24:09,285] DEBUG    WorkerManager:1HeLLo..Tf3D New task: index.html, peer lock: None, priority: 9998, optional_hash_id: None, tasks started: 26
+[2019-02-19 23:24:09,286] DEBUG    WorkerManager:1HeLLo..Tf3D New task: template-new/js/ZeroFrame.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 27
+[2019-02-19 23:24:09,286] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/da.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 28
+[2019-02-19 23:24:09,286] DEBUG    WorkerManager:1HeLLo..Tf3D New task: template-new/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 29
+[2019-02-19 23:24:09,286] DEBUG    WorkerManager:1HeLLo..Tf3D New task: languages/uk.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 30
+[2019-02-19 23:24:09,286] DEBUG    Site:1HeLLo..Tf3D Recent peers 44 of 46 (need: 25)
+[2019-02-19 23:24:09,287] DEBUG    ConnServer Conn# 8 136.61.22.74 [?] > Connecting... (site: Site 1HeLLo..Tf3D)
+[2019-02-19 23:24:09,288] DEBUG    Site:1HeLLo..Tf3D 0 peers (0 with hashfield) loaded in 0.000s
+[2019-02-19 23:24:09,289] DEBUG    ConnServer Conn# 9 109.180.34.171 [?] > Connecting... (site: Site 1HeLLo..Tf3D)
+[2019-02-19 23:24:09,327] DEBUG    ConnServer Conn#10 91.121.50.14 [?] > Connecting... (site: Site 1HeLLo..Tf3D)
+[2019-02-19 23:24:09,341] DEBUG    ConnServer Conn#11 84.236.2.202 [?] > Connecting... (site: Site 1HeLLo..Tf3D)
+[2019-02-19 23:24:09,585] DEBUG    WorkerManager:1Name2..hM9F 95.179.167.244:17398: Verify correct: data/names.json
+[2019-02-19 23:24:09,592] WARNING  Site:1HeLLo..Tf3D Tracker http://open.trackerlist.xyz:80/announce announce failed: <urlopen error [Errno -5] No address associated with hostname> in mode start
+[2019-02-19 23:24:09,649] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: index.html
+[2019-02-19 23:24:09,693] DEBUG    ConnServer Conn#12 155.94.137.22 [?] > Connecting... (site: Site 1HeLLo..Tf3D)
+[2019-02-19 23:24:09,695] DEBUG    ConnServer Conn#13 128.65.247.206 [?] > Connecting... (site: Site 1HeLLo..Tf3D)
+[2019-02-19 23:24:09,716] DEBUG    WorkerManager:1Name2..hM9F 104.248.189.28:17990: Verify correct: css/all.css
+[2019-02-19 23:24:09,759] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/nl.json
+[2019-02-19 23:24:09,797] WARNING  Site:1HeLLo..Tf3D Tracker udp://tracker.coppersurfer.tk:6969 announce failed: [Errno -5] No address associated with hostname in mode start
+[2019-02-19 23:24:09,797] DEBUG    Site:1HeLLo..Tf3D Announced in mode start to 5/8 trackers in 1.023s, errors: ['udp://tracker.coppersurfer.tk:6969', 'http://tracker2.itzmx.com:6961/announce', 'http://open.trackerlist.xyz:80/announce'], slow: []
+[2019-02-19 23:24:09,821] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/ru.json
+[2019-02-19 23:24:09,869] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/pl.json
+[2019-02-19 23:24:09,926] DEBUG    - Sending UPnP request to 192.168.1.254:36445...
+[2019-02-19 23:24:09,928] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/tr.json
+[2019-02-19 23:24:09,998] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/sk.json
+[2019-02-19 23:24:10,058] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: css/all.css
+[2019-02-19 23:24:10,063] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/es.json
+[2019-02-19 23:24:10,065] DEBUG    - 200
+[2019-02-19 23:24:10,106] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: languages/pt.json
+[2019-02-19 23:24:10,132] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/fr.json
+[2019-02-19 23:24:10,145] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: languages/pt-br.json
+[2019-02-19 23:24:10,154] DEBUG    WorkerManager:1Name2..hM9F 81.29.248.17:34254: Verify correct: js/all.js
+[2019-02-19 23:24:10,185] DEBUG    WorkerManager:1HeLLo..Tf3D 128.65.247.206:15441: Verify correct: languages/sl.json
+[2019-02-19 23:24:10,194] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: languages/zh.json
+[2019-02-19 23:24:10,205] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/zh-tw.json
+[2019-02-19 23:24:10,255] DEBUG    WorkerManager:1Name2..hM9F 81.29.248.17:34254: No task found, stopping
+[2019-02-19 23:24:10,255] DEBUG    WorkerManager:1Name2..hM9F Removed worker, workers: 4/5
+[2019-02-19 23:24:10,255] DEBUG    WorkerManager:1Name2..hM9F Check complete: No tasks
+[2019-02-19 23:24:10,256] DEBUG    Site:1Name2..hM9F Retry 0 bad files
+[2019-02-19 23:24:10,262] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: languages/jp.json
+[2019-02-19 23:24:10,273] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: languages/da.json
+[2019-02-19 23:24:10,288] DEBUG    WorkerManager:1HeLLo..Tf3D 128.65.247.206:15441: Verify correct: languages/it.json
+[2019-02-19 23:24:10,303] DEBUG    WorkerManager:1Name2..hM9F 95.179.167.244:17398: No task found, stopping
+[2019-02-19 23:24:10,303] DEBUG    WorkerManager:1Name2..hM9F Removed worker, workers: 3/5
+[2019-02-19 23:24:10,303] DEBUG    WorkerManager:1Name2..hM9F 173.255.223.86:37983: No task found, stopping
+[2019-02-19 23:24:10,303] DEBUG    WorkerManager:1Name2..hM9F Removed worker, workers: 2/5
+[2019-02-19 23:24:10,304] DEBUG    WorkerManager:1Name2..hM9F 89.10.182.142:31683: No task found, stopping
+[2019-02-19 23:24:10,304] DEBUG    WorkerManager:1Name2..hM9F Removed worker, workers: 1/5
+[2019-02-19 23:24:10,315] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: languages/uk.json
+[2019-02-19 23:24:10,329] DEBUG    WorkerManager:1Name2..hM9F 104.248.189.28:17990: No task found, stopping
+[2019-02-19 23:24:10,329] DEBUG    WorkerManager:1Name2..hM9F Removed worker, workers: 0/5
+[2019-02-19 23:24:10,534] DEBUG    WorkerManager:1HeLLo..Tf3D 136.61.22.74:14197: Verify correct: js/all.js
+[2019-02-19 23:24:10,536] DEBUG    Site:1HeLLo..Tf3D Queried listModifications from: [<Peer:92.9.207.76 >, <Peer:92.9.207.76 >, <Peer:91.121.50.14>, <Peer:84.236.2.202>, <Peer:136.61.22.74>] in 1.250s since 0
+[2019-02-19 23:24:10,551] DEBUG    WorkerManager:1HeLLo..Tf3D 155.94.137.22:26679: Verify correct: languages/hu.json
+[2019-02-19 23:24:10,617] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: img/loading-circle.gif
+[2019-02-19 23:24:10,632] DEBUG    Site:1HeLLo..Tf3D Pex result: from 2 peers got 9 new peers.
+[2019-02-19 23:24:10,663] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: img/world.png
+[2019-02-19 23:24:10,664] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: img/logo.svg
+[2019-02-19 23:24:10,712] DEBUG    WorkerManager:1HeLLo..Tf3D 155.94.137.22:26679: Verify correct: img/logo_big.png
+[2019-02-19 23:24:10,747] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: Verify correct: template-new/index.html
+[2019-02-19 23:24:10,750] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: Verify correct: template-new/js/ZeroFrame.js
+[2019-02-19 23:24:10,762] DEBUG    WorkerManager:1HeLLo..Tf3D 136.61.22.74:14197: Verify correct: img/logo.png
+[2019-02-19 23:24:10,867] DEBUG    WorkerManager:1HeLLo..Tf3D 155.94.137.22:26679: Verify correct: template-new/content.json-default
+[2019-02-19 23:24:11,021] DEBUG    WorkerManager:1HeLLo..Tf3D 128.65.247.206:15441: Verify correct: chartjs/chart.bundle.min.js
+[2019-02-19 23:24:11,122] DEBUG    WorkerManager:1HeLLo..Tf3D 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:24:11,122] DEBUG    WorkerManager:1HeLLo..Tf3D Removed worker, workers: 4/5
+[2019-02-19 23:24:11,122] DEBUG    WorkerManager:1HeLLo..Tf3D Check complete: No tasks
+[2019-02-19 23:24:11,122] DEBUG    Site:1HeLLo..Tf3D Retry 0 bad files
+[2019-02-19 23:24:11,151] DEBUG    WorkerManager:1HeLLo..Tf3D 92.9.207.76:15441: No task found, stopping
+[2019-02-19 23:24:11,151] DEBUG    WorkerManager:1HeLLo..Tf3D Removed worker, workers: 3/5
+[2019-02-19 23:24:11,154] DEBUG    WorkerManager:1HeLLo..Tf3D 109.180.34.171:31012: No task found, stopping
+[2019-02-19 23:24:11,154] DEBUG    WorkerManager:1HeLLo..Tf3D Removed worker, workers: 2/5
+[2019-02-19 23:24:11,167] DEBUG    WorkerManager:1HeLLo..Tf3D 136.61.22.74:14197: No task found, stopping
+[2019-02-19 23:24:11,167] DEBUG    WorkerManager:1HeLLo..Tf3D Removed worker, workers: 1/5
+[2019-02-19 23:24:11,169] DEBUG    WorkerManager:1HeLLo..Tf3D 155.94.137.22:26679: No task found, stopping
+[2019-02-19 23:24:11,169] DEBUG    WorkerManager:1HeLLo..Tf3D Removed worker, workers: 0/5
+[2019-02-19 23:24:11,270] INFO     PeerPortchecker Checking port 34411 (ipv4) using checkPortchecker result: {'ip': '89.92.118.140', 'opened': True} in 0.980s
+[2019-02-19 23:24:11,287] DEBUG    ConnServer Conn#14 45.33.50.110 [?] > Incoming connection...
+[2019-02-19 23:24:11,288] DEBUG    ConnServer Conn#14 45.33.50.110 [v2] > Closing connection: MessageLoop ended (closed: False), waiting_requests: 0, sites: 0, buff: 0...
+[2019-02-19 23:24:11,371] INFO     ConnServer Server port opened ipv4: True, ipv6: None
+[2019-02-19 23:24:11,372] DEBUG    ConnServer Checksites done in 4.097s
+[2019-02-19 23:24:12,080] DEBUG    User:16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t Saved in 0.032s
+[2019-02-19 23:24:12,285] DEBUG    Site:1Name2..hM9F Waiting for peers...
+[2019-02-19 23:24:12,501] DEBUG    Site:1Name2..hM9F Queried listModifications from: [<Peer:89.10.182.142>, <Peer:95.179.167.244>, <Peer:81.29.248.17>, <Peer:92.9.207.76 >, <Peer:104.248.189.28>] in 5.217s since 1550445368
+[2019-02-19 23:24:12,602] DEBUG    Site:1Name2..hM9F content.json loadContent same json file, skipping
+[2019-02-19 23:24:14,235] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D HTTP/1.1" 200 4880 0.000944
+[2019-02-19 23:24:14,323] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /uimedia/all.css?rev=3852 HTTP/1.1" 200 44127 0.001385
+[2019-02-19 23:24:14,324] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /uimedia/img/logo-white.png HTTP/1.1" 200 1649 0.000513
+[2019-02-19 23:24:14,396] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /uimedia/all.js?rev=3852&lang=en HTTP/1.1" 200 205540 0.001369
+[2019-02-19 23:24:14,399] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/?wrapper_nonce=7a0b1c1f6f52396a4cd021b07f9b958f2c5e72eb4e134c456faae6c7b56e5729 HTTP/1.1" 200 1654 0.002160
+[2019-02-19 23:24:14,438] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/css/all.css?site_modified=1550358055 HTTP/1.1" 200 235045 0.001091
+[2019-02-19 23:24:14,439] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/js/all.js?lang={lang}&site_modified=1550358055 HTTP/1.1" 200 288287 0.000680
+[2019-02-19 23:24:14,765] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /favicon.ico HTTP/1.1" 200 1430 0.000488
+[2019-02-19 23:24:14,807] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:14] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/img/logo.svg HTTP/1.1" 200 1303 0.000676
+[2019-02-19 23:24:14,864] DEBUG    SiteManager Loading sites...
+[2019-02-19 23:24:14,864] DEBUG    ContentFilterStorage Loaded 0 mutes, 0 blocked sites from 0 includes in 0.000s
+[2019-02-19 23:24:14,864] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:14,908] DEBUG    TrackerStorage New tracker found: zero://45.77.244.56:27450
+[2019-02-19 23:24:14,928] DEBUG    TrackerStorage New tracker found: zero://95.179.167.244:17398
+[2019-02-19 23:24:15,016] DEBUG    TrackerStorage New tracker found: zero://144.48.7.45:9999
+[2019-02-19 23:24:15,174] DEBUG    TrackerStorage New tracker found: zero://172.93.52.144:27983
+[2019-02-19 23:24:15,228] DEBUG    TrackerStorage Saved in 0.054s
+[2019-02-19 23:24:15,229] DEBUG    TrackerStorage Trackers discovered from 4/7 peers in 0.442s
+[2019-02-19 23:24:16,275] WARNING  Site:1Name2..hM9F Tracker udp://104.238.198.186:8000 announce failed: Could not connect in mode start
+[2019-02-19 23:24:16,275] DEBUG    Site:1Name2..hM9F Announced in mode start to 2/9 trackers in 9.019s, errors: ['zero://boot3rdez4rzn36x.onion:15441', 'udp://tracker.coppersurfer.tk:6969', 'udp://104.238.198.186:8000', 'http://tracker2.itzmx.com:6961/announce', 'http://open.acgnxtracker.com:80/announce', 'http://open.trackerlist.xyz:80/announce', 'https://1.tracker.eu.org:443/announce'], slow: []
+[2019-02-19 23:24:16,387] DEBUG    Site:1Name2..hM9F Pex result: from 2 peers got 10 new peers.
+[2019-02-19 23:24:18,512] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:18] "GET /Websocket?wrapper_key=6048b59f688da77a1c2986c14af3687fe9f02794a9acbf3f229610ecc8a1f262 HTTP/1.1" 101 129 3.801185
+[2019-02-19 23:24:18,946] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:18] "GET /1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/ HTTP/1.1" 200 4763 0.000728
+[2019-02-19 23:24:19,108] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:19] "GET /1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/?wrapper_nonce=bb3a9bbbe482a9574083fcad8b68ad90d6e934a9659bbaa3bc5ca8d65babbe3b HTTP/1.1" 200 2537 0.000539
+[2019-02-19 23:24:19,147] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:19] "GET /1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/css/all.css HTTP/1.1" 200 70430 0.000686
+[2019-02-19 23:24:19,149] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:19] "GET /1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/js/all.js HTTP/1.1" 200 91490 0.000960
+[2019-02-19 23:24:25,143] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:25] "GET /Websocket?wrapper_key=e0849206f7c018f578d62c507fcbaf26197d1bf62e383437510c24e6d2df7185 HTTP/1.1" 101 129 5.977498
+[2019-02-19 23:24:25,198] DEBUG    SiteManager Added new site: 15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK
+[2019-02-19 23:24:25,200] DEBUG    Site:15DoUz..L4KK ContentDb init: 0.000s, found files: 0, sites: 3
+[2019-02-19 23:24:25,200] DEBUG    Site:15DoUz..L4KK ContentDb not initialized, load files from filesystem
+[2019-02-19 23:24:25,200] DEBUG    Site:15DoUz..L4KK Content.json not exist: ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/content.json
+[2019-02-19 23:24:25,220] DEBUG    User:16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t Added new site: 15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK in 0.019s
+[2019-02-19 23:24:25,220] DEBUG    Db:ContentDb Filled file_optional table for 15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK in 0.020s (loaded: 0, is_pinned: 0)
+[2019-02-19 23:24:25,221] DEBUG    Site:15DoUz..L4KK New auth key: f2cc2e57c5e628ae69bcbdcdf4bfbc23b448ea9b534300c48a48232ccb898fe5
+[2019-02-19 23:24:25,221] DEBUG    Site:15DoUz..L4KK New wrapper key: 0fe2070f94f8d9ba7cfb0cba3e714b4fd26b582bfab826bca88ea11382e65ca2
+[2019-02-19 23:24:25,221] DEBUG    Site:15DoUz..L4KK New ajax key: 7ca8396238b908b92b17b8bb8422eccbebf37494fa1180da11acedca5b6c35d3
+[2019-02-19 23:24:25,263] DEBUG    SiteManager Saved sites in 0.04s (generate: 0.00s, write: 0.04s)
+[2019-02-19 23:24:25,263] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:25,264] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:25] "GET /15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK HTTP/1.1" 200 4799 0.066299
+[2019-02-19 23:24:25,265] DEBUG    Site:15DoUz..L4KK Start downloading, bad_files: {}, check_size: True, blind_includes: True
+[2019-02-19 23:24:25,265] DEBUG    Site:15DoUz..L4KK Need content.json first
+[2019-02-19 23:24:25,265] DEBUG    WorkerManager:15DoUz..L4KK New task: content.json, peer lock: None, priority: 10000, optional_hash_id: None, tasks started: 1
+[2019-02-19 23:24:25,265] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:25,265] DEBUG    Site:15DoUz..L4KK Recent peers 0 of 0 (need: 5)
+[2019-02-19 23:24:25,266] DEBUG    BroadcastServer Sending discover request (force: True)
+[2019-02-19 23:24:25,266] DEBUG    Site:15DoUz..L4KK Force reannounce in mode start
+[2019-02-19 23:24:25,281] DEBUG    ConnServer Conn#15 45.77.244.56 [?] > Connecting... (site: None)
+[2019-02-19 23:24:25,282] DEBUG    ConnServer Conn#16 172.93.52.144 [?] > Connecting... (site: None)
+[2019-02-19 23:24:25,284] DEBUG    ConnServer Conn#17 144.48.7.45  [?] > Connecting... (site: None)
+[2019-02-19 23:24:25,286] DEBUG    BroadcastServer Broadcast using ips ['192.168.1.41'] on port 1544: discoverRequest
+[2019-02-19 23:24:25,286] DEBUG    BroadcastServer Got from ('192.168.1.41', 35990): discoverRequest
+[2019-02-19 23:24:25,303] WARNING  Site:15DoUz..L4KK Tracker http://tracker2.itzmx.com:6961/announce announce failed: <urlopen error [Errno -5] No address associated with hostname> in mode start
+[2019-02-19 23:24:25,310] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:25,311] DEBUG    Site:15DoUz..L4KK Recent peers 9 of 9 (need: 5)
+[2019-02-19 23:24:25,311] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 1/5
+[2019-02-19 23:24:25,311] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 2/5
+[2019-02-19 23:24:25,311] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 212.24.103.49:29535, workers: 3/5
+[2019-02-19 23:24:25,311] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:24:25,311] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 5/5
+[2019-02-19 23:24:25,312] DEBUG    Site:15DoUz..L4KK Tracker announce result: zero://95.179.167.244:17398 (sites: 1, new peers: 9) in 0.030s
+[2019-02-19 23:24:25,312] DEBUG    ConnServer Conn#18 190.97.163.202 [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2019-02-19 23:24:25,422] DEBUG    Site:15DoUz..L4KK Tracker announce result: zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 (sites: 1, new peers: 1) in 0.155s
+[2019-02-19 23:24:25,430] DEBUG    Site:15DoUz..L4KK Need content.json first
+[2019-02-19 23:24:25,476] WARNING  Site:15DoUz..L4KK Tracker http://open.trackerlist.xyz:80/announce announce failed: <urlopen error [Errno -5] No address associated with hostname> in mode start
+[2019-02-19 23:24:25,721] DEBUG    Site:15DoUz..L4KK 0 peers (0 with hashfield) loaded in 0.000s
+[2019-02-19 23:24:26,086] DEBUG    Site:15DoUz..L4KK Tracker announce result: zero://172.93.52.144:27983 (sites: 1, new peers: 0) in 0.804s
+[2019-02-19 23:24:26,202] DEBUG    Site:15DoUz..L4KK Tracker announce result: zero://144.48.7.45:9999 (sites: 1, new peers: 0) in 0.918s
+[2019-02-19 23:24:26,218] DEBUG    ConnServer Conn#19 51.15.54.182 [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2019-02-19 23:24:26,219] DEBUG    ConnServer Conn#20 212.24.103.49 [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2019-02-19 23:24:26,220] DEBUG    ConnServer Conn#21 45.63.90.174 [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2019-02-19 23:24:26,221] DEBUG    ConnServer Conn#22 24.13.90.50  [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2019-02-19 23:24:26,281] DEBUG    ConnServer Conn#20 212.24.103.49 [?] > Closing connection: 212.24.103.49 Connect error: error: [Errno 111] Connection refused in ConnectionServer.py line 197 > Connection.py line 150 > socket.py line 344, waiting_requests: 0, sites: 0, buff: 0...
+[2019-02-19 23:24:26,281] DEBUG    WorkerManager:15DoUz..L4KK 212.24.103.49:29535: Verify failed: content.json, error: Download failed, failed peers: 0, workers: 4
+[2019-02-19 23:24:26,300] DEBUG    Site:15DoUz..L4KK Tracker announce result: zero://45.77.244.56:27450 (sites: 1, new peers: 0) in 1.019s
+[2019-02-19 23:24:26,314] WARNING  Site:15DoUz..L4KK Tracker udp://tracker.coppersurfer.tk:6969 announce failed: [Errno -5] No address associated with hostname in mode start
+[2019-02-19 23:24:26,316] DEBUG    Site:15DoUz..L4KK Announced in mode start to 9/12 trackers in 1.049s, errors: ['udp://tracker.coppersurfer.tk:6969', 'http://tracker2.itzmx.com:6961/announce', 'http://open.trackerlist.xyz:80/announce'], slow: ['1.02s zero://45.77.244.56:27450']
+[2019-02-19 23:24:26,399] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: Verify correct: content.json
+[2019-02-19 23:24:26,442] DEBUG    SiteManager Saved sites in 0.04s (generate: 0.00s, write: 0.04s)
+[2019-02-19 23:24:26,443] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:26,443] DEBUG    Site:15DoUz..L4KK content.json loadContent same json file, skipping
+[2019-02-19 23:24:26,444] DEBUG    WorkerManager:15DoUz..L4KK New task: index.html, peer lock: None, priority: 10013, optional_hash_id: None, tasks started: 2
+[2019-02-19 23:24:26,444] DEBUG    WorkerManager:15DoUz..L4KK New task: data/users/content.json, peer lock: None, priority: 1, optional_hash_id: None, tasks started: 3
+[2019-02-19 23:24:26,478] DEBUG    Site:15DoUz..L4KK Pex result: from 2 peers got 6 new peers.
+[2019-02-19 23:24:26,532] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: Verify correct: index.html
+[2019-02-19 23:24:26,534] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:26] "GET /15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/?wrapper_nonce=df8899c8c464a36cfd0d74cbfdc68427d3f82eb0cb69e4fe8baf6214b6ec2d38 HTTP/1.1" 200 6371 1.104074
+[2019-02-19 23:24:26,560] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: Verify failed: data/users/content.json, error: Download failed, failed peers: 0, workers: 0
+[2019-02-19 23:24:26,589] DEBUG    WorkerManager:15DoUz..L4KK New task: css/all.css, peer lock: None, priority: 29, optional_hash_id: None, tasks started: 4
+[2019-02-19 23:24:26,592] DEBUG    WorkerManager:15DoUz..L4KK New task: js/all.js, peer lock: None, priority: 28, optional_hash_id: None, tasks started: 5
+[2019-02-19 23:24:27,221] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: Verify correct: js/all.js
+[2019-02-19 23:24:27,223] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:27] "GET /15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/js/all.js HTTP/1.1" 200 55700 0.630967
+[2019-02-19 23:24:27,256] DEBUG    Site:15DoUz..L4KK No database, waiting for dbschema.json...
+[2019-02-19 23:24:27,257] DEBUG    WorkerManager:15DoUz..L4KK New task: dbschema.json, peer lock: None, priority: 15, optional_hash_id: None, tasks started: 6
+[2019-02-19 23:24:27,257] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: Verify correct: css/all.css
+[2019-02-19 23:24:27,259] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:27] "GET /15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/css/all.css HTTP/1.1" 200 25476 0.670584
+[2019-02-19 23:24:27,261] DEBUG    WorkerManager:15DoUz..L4KK New task: img/zerowiki.jpg, peer lock: None, priority: 15, optional_hash_id: None, tasks started: 7
+[2019-02-19 23:24:27,302] DEBUG    WorkerManager:15DoUz..L4KK New task: fonts/roboto.woff, peer lock: None, priority: 15, optional_hash_id: None, tasks started: 8
+[2019-02-19 23:24:27,449] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: Verify correct: dbschema.json
+[2019-02-19 23:24:27,449] DEBUG    Site:15DoUz..L4KK No database, waiting for dbschema.json...
+[2019-02-19 23:24:27,450] INFO     Site:15DoUz..L4KK Creating tables...
+[2019-02-19 23:24:27,450] DEBUG    Db:ZeroChat Created Db path: ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/
+[2019-02-19 23:24:27,451] DEBUG    Db:ZeroChat Db file not exist yet: ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db
+[2019-02-19 23:24:27,451] DEBUG    Db:ZeroChat Connected to ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db in 0.001s (opened: 3, sqlite version: 2.6.0)...
+[2019-02-19 23:24:27,451] DEBUG    Db:ZeroChat Query error: no such table: keyvalue
+[2019-02-19 23:24:27,451] INFO     Db:ZeroChat Table keyvalue outdated...version: False need: 2, rebuilding...
+[2019-02-19 23:24:27,452] INFO     Db:ZeroChat Table json outdated...version: 0 need: 2, rebuilding...
+[2019-02-19 23:24:27,453] INFO     Db:ZeroChat Table pages outdated...version: 0 need: 1, rebuilding...
+[2019-02-19 23:24:27,453] DEBUG    Db:ZeroChat Db check done in 0.003s, changed tables: ['keyvalue', 'json', u'pages']
+[2019-02-19 23:24:27,454] INFO     Site:15DoUz..L4KK Getting db files...
+[2019-02-19 23:24:27,454] ERROR    Site:15DoUz..L4KK [MISSING] data-default/data.json
+[2019-02-19 23:24:27,454] ERROR    Site:15DoUz..L4KK [MISSING] data-default/users/content-default.json
+[2019-02-19 23:24:27,454] INFO     Site:15DoUz..L4KK Importing data...
+[2019-02-19 23:24:27,455] DEBUG    Site:15DoUz..L4KK No database, waiting for dbschema.json...
+[2019-02-19 23:24:27,456] DEBUG    Db:ZeroChat Connected to ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db in 0.001s (opened: 4, sqlite version: 2.6.0)...
+[2019-02-19 23:24:27,456] DEBUG    Db:ZeroChat Db check done in 0.001s, changed tables: []
+[2019-02-19 23:24:27,457] DEBUG    Db:ZeroChat ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db closed in 0.000s, opened: 3
+[2019-02-19 23:24:27,457] INFO     Site:15DoUz..L4KK Closing Db: <Db#140028529917264:./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db close_idle:False>
+[2019-02-19 23:24:27,457] INFO     Site:15DoUz..L4KK Imported 0 data file in 0.00339913368225s
+[2019-02-19 23:24:27,457] DEBUG    Db:ZeroChat ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db closed in 0.000s, opened: 2
+[2019-02-19 23:24:27,458] DEBUG    Db:ZeroChat Connected to ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db in 0.000s (opened: 3, sqlite version: 2.6.0)...
+[2019-02-19 23:24:27,458] DEBUG    Db:ZeroChat Db check done in 0.001s, changed tables: []
+[2019-02-19 23:24:27,459] DEBUG    Db:ZeroChat ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db closed in 0.000s, opened: 2
+[2019-02-19 23:24:27,460] DEBUG    Db:ZeroChat Connected to ./data/15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/data/zerowiki.db in 0.000s (opened: 3, sqlite version: 2.6.0)...
+[2019-02-19 23:24:27,460] DEBUG    Db:ZeroChat Db check done in 0.001s, changed tables: []
+[2019-02-19 23:24:27,462] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: Verify correct: fonts/roboto.woff
+[2019-02-19 23:24:27,464] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:27] "GET /15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/fonts/roboto.woff HTTP/1.1" 200 13610 0.162358
+[2019-02-19 23:24:27,612] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: Verify correct: img/zerowiki.jpg
+[2019-02-19 23:24:27,615] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:27] "GET /15DoUzapXLvwTxmjgSePYKiDWnsev7L4KK/img/zerowiki.jpg HTTP/1.1" 200 19992 0.354776
+[2019-02-19 23:24:27,762] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:24:27,763] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:24:27,788] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: Verify failed: data/users/content.json, error: Download failed, failed peers: 1, workers: 0
+[2019-02-19 23:24:28,214] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: Verify failed: data/users/content.json, error: Download failed, failed peers: 2, workers: 0
+[2019-02-19 23:24:28,390] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: Verify failed: data/users/content.json, error: Download failed, failed peers: 3, workers: 0
+[2019-02-19 23:24:28,491] DEBUG    ConnServer Conn#23 212.24.103.49 [?] > Connecting... (site: Site 15DoUz..L4KK)
+[2019-02-19 23:24:28,543] DEBUG    ConnServer Conn#23 212.24.103.49 [?] > Closing connection: 212.24.103.49 Connect error: error: [Errno 111] Connection refused in ConnectionServer.py line 197 > Connection.py line 150 > socket.py line 344, waiting_requests: 0, sites: 0, buff: 0...
+[2019-02-19 23:24:28,544] DEBUG    WorkerManager:15DoUz..L4KK 212.24.103.49:29535: Verify failed: data/users/content.json, error: Download failed, failed peers: 4, workers: 0
+[2019-02-19 23:24:28,890] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:24:28,891] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:24:29,315] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:24:29,316] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:24:29,492] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:24:29,492] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:24:29,645] DEBUG    WorkerManager:15DoUz..L4KK 212.24.103.49:29535: No task found, stopping
+[2019-02-19 23:24:29,646] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:24:29,646] DEBUG    WorkerManager:15DoUz..L4KK Starting new workers... (tasks: 1)
+[2019-02-19 23:24:29,646] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:29,646] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 1/5
+[2019-02-19 23:24:29,647] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 2/5
+[2019-02-19 23:24:29,647] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 128.65.247.206:15441, workers: 3/5
+[2019-02-19 23:24:29,647] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:24:29,647] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 5/5
+[2019-02-19 23:24:29,737] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: Verify failed: data/users/content.json, error: Download failed, failed peers: 5, workers: 0
+[2019-02-19 23:24:29,748] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:24:29,749] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:24:29,749] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:24:29,749] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:24:29,749] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:24:29,750] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:24:29,750] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:24:29,750] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:24:30,260] DEBUG    User:16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t Saved in 0.039s
+[2019-02-19 23:24:30,839] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:24:30,839] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:24:30,839] DEBUG    WorkerManager:15DoUz..L4KK Starting new workers... (tasks: 1)
+[2019-02-19 23:24:30,839] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:30,839] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 1/5
+[2019-02-19 23:24:30,840] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 128.65.247.206:15441, workers: 2/5
+[2019-02-19 23:24:30,840] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 3/5
+[2019-02-19 23:24:30,840] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:24:30,840] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 5/5
+[2019-02-19 23:24:30,941] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:24:30,941] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:24:30,942] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:24:30,942] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:24:30,942] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:24:30,942] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:24:30,942] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:24:30,943] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:24:30,943] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:24:30,943] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:24:35,828] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:35] "GET /Websocket?wrapper_key=0fe2070f94f8d9ba7cfb0cba3e714b4fd26b582bfab826bca88ea11382e65ca2 HTTP/1.1" 101 129 10.345062
+[2019-02-19 23:24:35,869] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:35] "GET /1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/ HTTP/1.1" 200 4763 0.001001
+[2019-02-19 23:24:36,020] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:36] "GET /1Name2NXVi1RDPDgf5617UoW7xA6YrhM9F/?wrapper_nonce=9e803c1b9fc694b935072cbd68529c4592196ec3a6d218babc98811cf9416348 HTTP/1.1" 200 2537 0.000603
+[2019-02-19 23:24:37,307] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:37] "GET /Websocket?wrapper_key=e0849206f7c018f578d62c507fcbaf26197d1bf62e383437510c24e6d2df7185 HTTP/1.1" 101 129 1.119670
+[2019-02-19 23:24:37,342] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:37] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/ HTTP/1.1" 200 4880 0.001220
+[2019-02-19 23:24:37,490] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:37] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/?wrapper_nonce=52fa9cf52d2a57dfeb838f269a53b5a0231ed7f7a9b940901d99e57a8f81dee4 HTTP/1.1" 200 1654 0.000722
+[2019-02-19 23:24:37,779] DEBUG    SiteManager Loading sites...
+[2019-02-19 23:24:37,780] DEBUG    ContentFilterStorage Loaded 0 mutes, 0 blocked sites from 0 includes in 0.000s
+[2019-02-19 23:24:37,780] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:37,826] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:37] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/img/loading-circle.gif HTTP/1.1" 200 2643 0.000736
+[2019-02-19 23:24:39,830] ERROR    Site:1HeLLo..Tf3D ChartDbQuery error: You did not supply a value for binding 1.
+[2019-02-19 23:24:40,202] DEBUG    WorkerManager:15DoUz..L4KK Slow task: data/users/content.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 6, asked: 0)
+[2019-02-19 23:24:40,202] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:40,202] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 1/5
+[2019-02-19 23:24:40,203] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 128.65.247.206:15441, workers: 2/5
+[2019-02-19 23:24:40,203] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 3/5
+[2019-02-19 23:24:40,203] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:24:40,203] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 5/5
+[2019-02-19 23:24:40,234] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:40] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/chartjs/chart.bundle.min.js HTTP/1.1" 200 208501 0.001301
+[2019-02-19 23:24:40,304] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:24:40,305] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:24:40,305] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:24:40,305] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:24:40,305] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:24:40,305] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:24:40,306] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:24:40,306] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:24:40,306] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:24:40,306] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:24:40,354] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:40] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/img/world.png HTTP/1.1" 200 14001 0.000571
+[2019-02-19 23:24:40,426] ERROR    Site:1HeLLo..Tf3D ChartDbQuery error: no such column: undefined
+[2019-02-19 23:24:40,429] ERROR    Site:1HeLLo..Tf3D ChartDbQuery error: no such column: undefined
+[2019-02-19 23:24:40,468] INFO     Site:1HeLLo..Tf3D Downloading GeoLite2 City database...
+[2019-02-19 23:24:49,702] INFO     Site:1HeLLo..Tf3D GeoLite2 City database downloaded (28968975 bytes), unpacking...
+[2019-02-19 23:24:50,301] DEBUG    - Gevent block detected: 0.240538835526
+[2019-02-19 23:24:52,258] DEBUG    ConnServer Conn# 2 zero.booth.moe [v2] > Closing connection: [Cleanup] Tracker connection, idle: 26.836s, waiting_requests: 0, sites: 1, buff: 0...
+[2019-02-19 23:24:52,258] DEBUG    ConnServer Conn# 6 95.179.167.244 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 26.949s, waiting_requests: 0, sites: 2, buff: 0...
+[2019-02-19 23:24:52,259] DEBUG    ConnServer Conn#15 45.77.244.56 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 25.959s, waiting_requests: 0, sites: 1, buff: 0...
+[2019-02-19 23:24:52,259] DEBUG    ConnServer Conn#16 172.93.52.144 [v2] > Closing connection: [Cleanup] Tracker connection, idle: 26.174s, waiting_requests: 0, sites: 1, buff: 0...
+[2019-02-19 23:24:52,260] DEBUG    ConnServer Conn#17 144.48.7.45  [v2] > Closing connection: [Cleanup] Tracker connection, idle: 26.058s, waiting_requests: 0, sites: 1, buff: 0...
+[2019-02-19 23:24:55,204] DEBUG    WorkerManager:15DoUz..L4KK Slow task: data/users/content.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 6, asked: 0)
+[2019-02-19 23:24:55,205] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:55,205] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 1/5
+[2019-02-19 23:24:55,205] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 128.65.247.206:15441, workers: 2/5
+[2019-02-19 23:24:55,205] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 3/5
+[2019-02-19 23:24:55,206] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:24:55,206] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 5/5
+[2019-02-19 23:24:55,307] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:24:55,307] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:24:55,308] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:24:55,308] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:24:55,308] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:24:55,308] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:24:55,309] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:24:55,309] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:24:55,309] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:24:55,309] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:24:57,876] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:57] "GET /Websocket?wrapper_key=6048b59f688da77a1c2986c14af3687fe9f02794a9acbf3f229610ecc8a1f262 HTTP/1.1" 101 129 20.275197
+[2019-02-19 23:24:57,935] DEBUG    SiteManager Added new site: 1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1
+[2019-02-19 23:24:57,937] DEBUG    Site:1DocsY..kVv1 ContentDb init: 0.000s, found files: 0, sites: 4
+[2019-02-19 23:24:57,937] DEBUG    Site:1DocsY..kVv1 ContentDb not initialized, load files from filesystem
+[2019-02-19 23:24:57,937] DEBUG    Site:1DocsY..kVv1 Content.json not exist: ./data/1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/content.json
+[2019-02-19 23:24:57,958] DEBUG    User:16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t Added new site: 1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1 in 0.021s
+[2019-02-19 23:24:57,958] DEBUG    Db:ContentDb Filled file_optional table for 1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1 in 0.021s (loaded: 0, is_pinned: 0)
+[2019-02-19 23:24:57,959] DEBUG    Site:1DocsY..kVv1 New auth key: 6aeae1070c0649ff23293d6ee7d5a592fb06a521b9ee57d92e17264ce9031be2
+[2019-02-19 23:24:57,959] DEBUG    Site:1DocsY..kVv1 New wrapper key: 4ff556a426402636f11604d05d82f606b4b9fe4492c5eba043dbd4f95b654864
+[2019-02-19 23:24:57,959] DEBUG    Site:1DocsY..kVv1 New ajax key: 4b3b431d40d7d95a4f4a65d0b5f54178ee9a998cef6b0835e1d35f0defcd5a25
+[2019-02-19 23:24:58,001] DEBUG    SiteManager Saved sites in 0.04s (generate: 0.00s, write: 0.04s)
+[2019-02-19 23:24:58,001] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:58,002] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:58] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/faq/ HTTP/1.1" 200 4809 0.067330
+[2019-02-19 23:24:58,003] DEBUG    Site:1DocsY..kVv1 Start downloading, bad_files: {}, check_size: True, blind_includes: True
+[2019-02-19 23:24:58,003] DEBUG    Site:1DocsY..kVv1 Need content.json first
+[2019-02-19 23:24:58,003] DEBUG    WorkerManager:1DocsY..kVv1 New task: content.json, peer lock: None, priority: 10000, optional_hash_id: None, tasks started: 1
+[2019-02-19 23:24:58,003] DEBUG    WorkerManager:1DocsY..kVv1 Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:58,003] DEBUG    Site:1DocsY..kVv1 Recent peers 0 of 0 (need: 5)
+[2019-02-19 23:24:58,003] DEBUG    BroadcastServer Sending discover request (force: True)
+[2019-02-19 23:24:58,004] DEBUG    Site:1DocsY..kVv1 Force reannounce in mode start
+[2019-02-19 23:24:58,005] DEBUG    ConnServer Conn#24 zero.booth.moe [?] > Connecting... (site: None)
+[2019-02-19 23:24:58,020] DEBUG    ConnServer Conn#25 45.77.244.56 [?] > Connecting... (site: None)
+[2019-02-19 23:24:58,021] DEBUG    ConnServer Conn#26 95.179.167.244 [?] > Connecting... (site: None)
+[2019-02-19 23:24:58,022] DEBUG    ConnServer Conn#27 172.93.52.144 [?] > Connecting... (site: None)
+[2019-02-19 23:24:58,022] DEBUG    ConnServer Conn#28 144.48.7.45  [?] > Connecting... (site: None)
+[2019-02-19 23:24:58,025] DEBUG    BroadcastServer Broadcast using ips ['192.168.1.41'] on port 1544: discoverRequest
+[2019-02-19 23:24:58,025] DEBUG    BroadcastServer Got from ('192.168.1.41', 39825): discoverRequest
+[2019-02-19 23:24:58,157] DEBUG    Site:1DocsY..kVv1 Need content.json first
+[2019-02-19 23:24:58,170] DEBUG    WorkerManager:1DocsY..kVv1 Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:24:58,170] DEBUG    Site:1DocsY..kVv1 Recent peers 5 of 5 (need: 5)
+[2019-02-19 23:24:58,170] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 45.77.244.56:27450, workers: 1/5
+[2019-02-19 23:24:58,170] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 103.73.66.144:12589, workers: 2/5
+[2019-02-19 23:24:58,171] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 86.173.255.190:37292, workers: 3/5
+[2019-02-19 23:24:58,171] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 104.156.231.236:12348, workers: 4/5
+[2019-02-19 23:24:58,171] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 23.92.215.35:13069, workers: 5/5
+[2019-02-19 23:24:58,171] DEBUG    Site:1DocsY..kVv1 Tracker announce result: zero://95.179.167.244:17398 (sites: 1, new peers: 5) in 0.150s
+[2019-02-19 23:24:58,171] DEBUG    ConnServer Conn#25 45.77.244.56 [?] > Wait for handshake before send request
+[2019-02-19 23:24:58,209] WARNING  Site:1DocsY..kVv1 Tracker http://tracker2.itzmx.com:6961/announce announce failed: <urlopen error [Errno -5] No address associated with hostname> in mode start
+[2019-02-19 23:24:58,460] DEBUG    Site:1DocsY..kVv1 0 peers (0 with hashfield) loaded in 0.000s
+[2019-02-19 23:24:58,802] DEBUG    Site:1DocsY..kVv1 Tracker announce result: zero://172.93.52.144:27983 (sites: 1, new peers: 0) in 0.780s
+[2019-02-19 23:24:58,818] WARNING  Site:1DocsY..kVv1 Tracker https://1.tracker.eu.org:443/announce announce failed: <urlopen error [Errno -2] Name or service not known> in mode start
+[2019-02-19 23:24:58,885] DEBUG    Site:1DocsY..kVv1 Tracker announce result: zero://144.48.7.45:9999 (sites: 1, new peers: 2) in 0.863s
+[2019-02-19 23:24:58,975] DEBUG    Site:1DocsY..kVv1 Tracker announce result: zero://zero.booth.moe#f36ca555bee6ba216b14d10f38c16f7769ff064e0e37d887603548cc2e64191d:443 (sites: 1, new peers: 1) in 0.971s
+[2019-02-19 23:24:59,077] DEBUG    ConnServer Conn#29 103.73.66.144 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:24:59,078] DEBUG    ConnServer Conn#30 86.173.255.190 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:24:59,079] DEBUG    ConnServer Conn#31 104.156.231.236 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:24:59,080] DEBUG    ConnServer Conn#32 23.92.215.35 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:24:59,320] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: content.json
+[2019-02-19 23:24:59,321] DEBUG    Site:1DocsY..kVv1 Tracker announce result: zero://45.77.244.56:27450 (sites: 1, new peers: 0) in 1.301s
+[2019-02-19 23:24:59,370] DEBUG    SiteManager Saved sites in 0.05s (generate: 0.00s, write: 0.05s)
+[2019-02-19 23:24:59,370] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:59,371] DEBUG    Site:1DocsY..kVv1 content.json loadContent same json file, skipping
+[2019-02-19 23:24:59,403] DEBUG    SiteManager Saved sites in 0.03s (generate: 0.00s, write: 0.03s)
+[2019-02-19 23:24:59,403] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:24:59,404] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-700.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 2
+[2019-02-19 23:24:59,404] DEBUG    WorkerManager:1DocsY..kVv1 New task: jquery.min.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 3
+[2019-02-19 23:24:59,405] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/help_zeronet/coding_conventions/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 4
+[2019-02-19 23:24:59,405] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zerotalk-old.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 5
+[2019-02-19 23:24:59,405] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 6
+[2019-02-19 23:24:59,406] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zeroblog.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 7
+[2019-02-19 23:24:59,406] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/images/icons/gitlab.6dd19c00.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 8
+[2019-02-19 23:24:59,406] DEBUG    WorkerManager:1DocsY..kVv1 New task: site_development/getting_started/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 9
+[2019-02-19 23:24:59,407] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-300.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 10
+[2019-02-19 23:24:59,407] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 11
+[2019-02-19 23:24:59,407] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/docs.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 12
+[2019-02-19 23:24:59,407] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/bitcoinbar/bitcoinbar.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 13
+[2019-02-19 23:24:59,408] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/stylesheets/application-palette.22915126.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 14
+[2019-02-19 23:24:59,408] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/images/icons/bitbucket.1b09e088.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 15
+[2019-02-19 23:24:59,408] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/404.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 16
+[2019-02-19 23:24:59,408] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.ro.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 17
+[2019-02-19 23:24:59,409] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/specimen/FontAwesome.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 18
+[2019-02-19 23:24:59,409] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.hu.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 19
+[2019-02-19 23:24:59,409] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/specimen/FontAwesome.ttf, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 20
+[2019-02-19 23:24:59,410] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/images/icons/gitlab.6dd19c00.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 21
+[2019-02-19 23:24:59,410] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.ro.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 22
+[2019-02-19 23:24:59,410] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.hu.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 23
+[2019-02-19 23:24:59,410] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/using_zeronet/sample_sites/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 24
+[2019-02-19 23:24:59,411] DEBUG    WorkerManager:1DocsY..kVv1 New task: bitcoinbar/bitcoinbar.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 25
+[2019-02-19 23:24:59,411] DEBUG    WorkerManager:1DocsY..kVv1 New task: logo/favicon.ico, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 26
+[2019-02-19 23:24:59,411] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/sitemap.xml, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 27
+[2019-02-19 23:24:59,412] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 28
+[2019-02-19 23:24:59,412] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/tinyseg.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 29
+[2019-02-19 23:24:59,412] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/images/icons/github.f0b8504a.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 30
+[2019-02-19 23:24:59,412] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zerotalk-old.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 31
+[2019-02-19 23:24:59,413] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/font-awesome.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 32
+[2019-02-19 23:24:59,413] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zerochat.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 33
+[2019-02-19 23:24:59,413] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/images/icons/gitlab.6dd19c00.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 34
+[2019-02-19 23:24:59,413] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/stylesheets/application.11e41852.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 35
+[2019-02-19 23:24:59,414] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/images/favicon.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 36
+[2019-02-19 23:24:59,414] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zeroboard.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 37
+[2019-02-19 23:24:59,415] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 38
+[2019-02-19 23:24:59,416] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/search/search_index.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 39
+[2019-02-19 23:24:59,417] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-mono-v5-latin-ext_latin-regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 40
+[2019-02-19 23:24:59,418] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zerohello.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 41
+[2019-02-19 23:24:59,418] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/specimen/MaterialIcons-Regular.ttf, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 42
+[2019-02-19 23:24:59,418] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/docs.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 43
+[2019-02-19 23:24:59,418] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zerome.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 44
+[2019-02-19 23:24:59,419] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-300.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 45
+[2019-02-19 23:24:59,419] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/logo/zeronet_logo.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 46
+[2019-02-19 23:24:59,419] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-mono-v5-latin-ext_latin-regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 47
+[2019-02-19 23:24:59,419] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/stylesheets/menu.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 48
+[2019-02-19 23:24:59,419] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zerotalk.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 49
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zerohello-old.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 50
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/help_zeronet/network_protocol/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 51
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-italic.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 52
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 Starting workers, tasks: 51, peers: 0, workers: 5
+[2019-02-19 23:24:59,420] DEBUG    Site:1DocsY..kVv1 Recent peers 30 of 81 (need: 15)
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 91.121.50.14:51604, workers: 6/15
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 45.63.90.174:34763, workers: 7/15
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 190.97.163.202:10443, workers: 8/15
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 72.46.51.111:13109, workers: 9/15
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 82.255.120.78:15633, workers: 10/15
+[2019-02-19 23:24:59,420] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 79.136.109.29:26552, workers: 11/15
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 114.34.196.84:33519, workers: 12/15
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 95.61.17.91:22059, workers: 13/15
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 212.109.223.115:26552, workers: 14/15
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 94.242.58.32:34836, workers: 15/15
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 Added worker: 193.183.98.77:12314, workers: 16/15
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/stylesheets/menu.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 53
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/site_development/cert_authority/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 54
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/logo/favicon.ico, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 55
+[2019-02-19 23:24:59,421] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.multi.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 56
+[2019-02-19 23:24:59,422] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.sv.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 57
+[2019-02-19 23:24:59,422] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/images/icons/bitbucket.1b09e088.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 58
+[2019-02-19 23:24:59,422] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.it.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 59
+[2019-02-19 23:24:59,422] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 60
+[2019-02-19 23:24:59,422] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-700.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 61
+[2019-02-19 23:24:59,422] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-italic.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 62
+[2019-02-19 23:24:59,422] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.it.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 63
+[2019-02-19 23:24:59,423] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-mono-v5-latin-ext_latin-regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 64
+[2019-02-19 23:24:59,423] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/sitemap.xml, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 65
+[2019-02-19 23:24:59,423] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/javascripts/menu.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 66
+[2019-02-19 23:24:59,423] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.es.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 67
+[2019-02-19 23:24:59,423] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zerohello-old.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 68
+[2019-02-19 23:24:59,423] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/tinyseg.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 69
+[2019-02-19 23:24:59,424] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.da.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 70
+[2019-02-19 23:24:59,424] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.fi.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 71
+[2019-02-19 23:24:59,424] DEBUG    WorkerManager:1DocsY..kVv1 New task: docs.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 72
+[2019-02-19 23:24:59,424] DEBUG    WorkerManager:1DocsY..kVv1 New task: help_zeronet/coding_conventions/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 73
+[2019-02-19 23:24:59,424] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.sv.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 74
+[2019-02-19 23:24:59,424] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/site_development/getting_started/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 75
+[2019-02-19 23:24:59,424] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/application.9e1f3b71.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 76
+[2019-02-19 23:24:59,425] DEBUG    WorkerManager:1DocsY..kVv1 New task: stylesheets/menu.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 77
+[2019-02-19 23:24:59,425] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.du.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 78
+[2019-02-19 23:24:59,425] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/logo/zeronet_logo.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 79
+[2019-02-19 23:24:59,425] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zerochat.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 80
+[2019-02-19 23:24:59,425] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.no.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 81
+[2019-02-19 23:24:59,425] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zerochat.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 82
+[2019-02-19 23:24:59,425] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/jquery.min.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 83
+[2019-02-19 23:24:59,426] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.stemmer.support.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 84
+[2019-02-19 23:24:59,426] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/specimen/MaterialIcons-Regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 85
+[2019-02-19 23:24:59,426] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zerotalk.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 86
+[2019-02-19 23:24:59,426] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-mono-v5-latin-ext_latin-regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 87
+[2019-02-19 23:24:59,426] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.fi.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 88
+[2019-02-19 23:24:59,427] DEBUG    WorkerManager:1DocsY..kVv1 New task: using_zeronet/sample_sites/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 89
+[2019-02-19 23:24:59,427] DEBUG    WorkerManager:1DocsY..kVv1 New task: help_zeronet/network_protocol/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 90
+[2019-02-19 23:24:59,427] DEBUG    WorkerManager:1DocsY..kVv1 New task: site_development/dbschema_json/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 91
+[2019-02-19 23:24:59,427] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zeroblog.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 92
+[2019-02-19 23:24:59,427] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zeroblog.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 93
+[2019-02-19 23:24:59,427] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/domain.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 94
+[2019-02-19 23:24:59,428] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/stylesheets/application.11e41852.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 95
+[2019-02-19 23:24:59,428] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/translation/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 96
+[2019-02-19 23:24:59,428] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-italic.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 97
+[2019-02-19 23:24:59,428] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/ZeroFrame.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 98
+[2019-02-19 23:24:59,428] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/specimen/MaterialIcons-Regular.ttf, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 99
+[2019-02-19 23:24:59,428] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/site_development/dbschema_json/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 100
+[2019-02-19 23:24:59,428] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.tr.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 101
+[2019-02-19 23:24:59,429] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.da.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 102
+[2019-02-19 23:24:59,429] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.pt.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 103
+[2019-02-19 23:24:59,429] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/faq/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 104
+[2019-02-19 23:24:59,429] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/docs.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 105
+[2019-02-19 23:24:59,429] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zeromail.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 106
+[2019-02-19 23:24:59,429] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.jp.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 107
+[2019-02-19 23:24:59,430] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.fi.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 108
+[2019-02-19 23:24:59,430] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/translation/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 109
+[2019-02-19 23:24:59,430] DEBUG    WorkerManager:1DocsY..kVv1 New task: site_development/content_json/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 110
+[2019-02-19 23:24:59,430] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/specimen/MaterialIcons-Regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 111
+[2019-02-19 23:24:59,430] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/specimen/MaterialIcons-Regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 112
+[2019-02-19 23:24:59,430] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.jp.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 113
+[2019-02-19 23:24:59,430] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.no.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 114
+[2019-02-19 23:24:59,431] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/reactiongifs.jpg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 115
+[2019-02-19 23:24:59,431] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/material-icons.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 116
+[2019-02-19 23:24:59,431] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/images/icons/github.f0b8504a.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 117
+[2019-02-19 23:24:59,432] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.tr.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 118
+[2019-02-19 23:24:59,432] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/stylesheets/application-palette.22915126.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 119
+[2019-02-19 23:24:59,433] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.es.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 120
+[2019-02-19 23:24:59,434] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/help_zeronet/contributing/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 121
+[2019-02-19 23:24:59,434] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/logo/favicon.ico, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 122
+[2019-02-19 23:24:59,434] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/modernizr.20ef595d.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 123
+[2019-02-19 23:24:59,434] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/reactiongifs.jpg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 124
+[2019-02-19 23:24:59,435] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.ru.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 125
+[2019-02-19 23:24:59,435] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zerotalk-old.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 126
+[2019-02-19 23:24:59,435] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/specimen/MaterialIcons-Regular.ttf, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 127
+[2019-02-19 23:24:59,435] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.stemmer.support.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 128
+[2019-02-19 23:24:59,435] DEBUG    WorkerManager:1DocsY..kVv1 New task: search/search_index.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 129
+[2019-02-19 23:24:59,435] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/using_zeronet/create_new_site/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 130
+[2019-02-19 23:24:59,436] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.ru.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 131
+[2019-02-19 23:24:59,436] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/domain.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 132
+[2019-02-19 23:24:59,436] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/using_zeronet/create_new_site/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 133
+[2019-02-19 23:24:59,436] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/site_development/zeroframe_api_reference/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 134
+[2019-02-19 23:24:59,436] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/search/search_index.json, peer lock: None, priority: 11, optional_hash_id: None, tasks started: 135
+[2019-02-19 23:24:59,436] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/font-awesome.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 136
+[2019-02-19 23:24:59,436] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/modernizr.20ef595d.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 137
+[2019-02-19 23:24:59,437] DEBUG    WorkerManager:1DocsY..kVv1 New task: docs.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 138
+[2019-02-19 23:24:59,437] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/application.9e1f3b71.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 139
+[2019-02-19 23:24:59,437] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/specimen/MaterialIcons-Regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 140
+[2019-02-19 23:24:59,437] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/404.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 141
+[2019-02-19 23:24:59,437] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-mono-v5-latin-ext_latin-regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 142
+[2019-02-19 23:24:59,437] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-italic.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 143
+[2019-02-19 23:24:59,438] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-700.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 144
+[2019-02-19 23:24:59,438] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/help_zeronet/donate/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 145
+[2019-02-19 23:24:59,438] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/bitcoinbar/bitcoinbar.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 146
+[2019-02-19 23:24:59,438] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-mono-v5-latin-ext_latin-regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 147
+[2019-02-19 23:24:59,438] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 148
+[2019-02-19 23:24:59,438] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/reactiongifs.jpg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 149
+[2019-02-19 23:24:59,438] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.no.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 150
+[2019-02-19 23:24:59,439] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zerome.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 151
+[2019-02-19 23:24:59,439] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/site_development/zeroframe_api_reference/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 152
+[2019-02-19 23:24:59,439] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.du.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 153
+[2019-02-19 23:24:59,439] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.da.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 154
+[2019-02-19 23:24:59,439] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-300.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 155
+[2019-02-19 23:24:59,439] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zerohello.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 156
+[2019-02-19 23:24:59,440] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zeroboard.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 157
+[2019-02-19 23:24:59,440] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/specimen/FontAwesome.ttf, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 158
+[2019-02-19 23:24:59,440] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.de.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 159
+[2019-02-19 23:24:59,440] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/specimen/FontAwesome.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 160
+[2019-02-19 23:24:59,440] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 161
+[2019-02-19 23:24:59,441] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.multi.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 162
+[2019-02-19 23:24:59,441] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/sitemap.xml.gz, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 163
+[2019-02-19 23:24:59,441] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-700.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 164
+[2019-02-19 23:24:59,441] DEBUG    WorkerManager:1DocsY..kVv1 New task: index.html, peer lock: None, priority: 9998, optional_hash_id: None, tasks started: 165
+[2019-02-19 23:24:59,441] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/specimen/MaterialIcons-Regular.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 166
+[2019-02-19 23:24:59,441] DEBUG    WorkerManager:1DocsY..kVv1 New task: 404.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 167
+[2019-02-19 23:24:59,441] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/jquery.min.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 168
+[2019-02-19 23:24:59,442] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/img/zerohello.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 169
+[2019-02-19 23:24:59,442] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.ru.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 170
+[2019-02-19 23:24:59,442] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/using_zeronet/sample_sites/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 171
+[2019-02-19 23:24:59,442] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.it.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 172
+[2019-02-19 23:24:59,442] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/site_development/getting_started/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 173
+[2019-02-19 23:24:59,442] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/specimen/FontAwesome.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 174
+[2019-02-19 23:24:59,443] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zerome.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 175
+[2019-02-19 23:24:59,443] DEBUG    WorkerManager:1DocsY..kVv1 New task: help_zeronet/contributing/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 176
+[2019-02-19 23:24:59,443] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/site_development/cert_authority/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 177
+[2019-02-19 23:24:59,443] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/help_zeronet/coding_conventions/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 178
+[2019-02-19 23:24:59,443] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/javascripts/menu.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 179
+[2019-02-19 23:24:59,444] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/fonts/font-awesome.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 180
+[2019-02-19 23:24:59,444] DEBUG    WorkerManager:1DocsY..kVv1 New task: using_zeronet/installing/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 181
+[2019-02-19 23:24:59,444] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.pt.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 182
+[2019-02-19 23:24:59,445] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/using_zeronet/installing/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 183
+[2019-02-19 23:24:59,445] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-300.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 184
+[2019-02-19 23:24:59,445] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/stylesheets/application.11e41852.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 185
+[2019-02-19 23:24:59,445] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/specimen/FontAwesome.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 186
+[2019-02-19 23:24:59,445] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/domain.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 187
+[2019-02-19 23:24:59,445] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/help_zeronet/contributing/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 188
+[2019-02-19 23:24:59,446] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/tinyseg.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 189
+[2019-02-19 23:24:59,446] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/sitemap.xml.gz, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 190
+[2019-02-19 23:24:59,446] DEBUG    WorkerManager:1DocsY..kVv1 New task: help_zeronet/donate/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 191
+[2019-02-19 23:24:59,446] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.du.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 192
+[2019-02-19 23:24:59,446] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/help_zeronet/donate/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 193
+[2019-02-19 23:24:59,446] DEBUG    WorkerManager:1DocsY..kVv1 New task: fonts/roboto-v18-latin-ext_latin-700.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 194
+[2019-02-19 23:24:59,447] DEBUG    WorkerManager:1DocsY..kVv1 New task: logo/zeronet_logo.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 195
+[2019-02-19 23:24:59,447] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.jp.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 196
+[2019-02-19 23:24:59,447] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.pt.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 197
+[2019-02-19 23:24:59,447] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/docs.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 198
+[2019-02-19 23:24:59,447] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.tr.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 199
+[2019-02-19 23:24:59,447] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.hu.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 200
+[2019-02-19 23:24:59,448] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.ro.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 201
+[2019-02-19 23:24:59,448] DEBUG    WorkerManager:1DocsY..kVv1 New task: sitemap.xml.gz, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 202
+[2019-02-19 23:24:59,448] DEBUG    WorkerManager:1DocsY..kVv1 New task: ZeroFrame.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 203
+[2019-02-19 23:24:59,449] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/specimen/FontAwesome.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 204
+[2019-02-19 23:24:59,449] DEBUG    WorkerManager:1DocsY..kVv1 New task: translation/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 205
+[2019-02-19 23:24:59,450] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/faq/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 206
+[2019-02-19 23:24:59,451] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/site_development/dbschema_json/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 207
+[2019-02-19 23:24:59,451] DEBUG    WorkerManager:1DocsY..kVv1 New task: using_zeronet/create_new_site/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 208
+[2019-02-19 23:24:59,451] DEBUG    WorkerManager:1DocsY..kVv1 New task: site_development/zeroframe_api_reference/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 209
+[2019-02-19 23:24:59,452] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/specimen/FontAwesome.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 210
+[2019-02-19 23:24:59,452] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-700.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 211
+[2019-02-19 23:24:59,452] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.fr.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 212
+[2019-02-19 23:24:59,452] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/using_zeronet/installing/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 213
+[2019-02-19 23:24:59,452] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-italic.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 214
+[2019-02-19 23:24:59,453] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/modernizr.20ef595d.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 215
+[2019-02-19 23:24:59,453] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/specimen/MaterialIcons-Regular.woff2, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 216
+[2019-02-19 23:24:59,453] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.de.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 217
+[2019-02-19 23:24:59,453] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/bitcoinbar/bitcoinbar.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 218
+[2019-02-19 23:24:59,453] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/help_zeronet/network_protocol/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 219
+[2019-02-19 23:24:59,453] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/bitcoinbar/bitcoinbar.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 220
+[2019-02-19 23:24:59,454] DEBUG    WorkerManager:1DocsY..kVv1 New task: bitcoinbar/bitcoinbar.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 221
+[2019-02-19 23:24:59,454] DEBUG    WorkerManager:1DocsY..kVv1 New task: faq/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 222
+[2019-02-19 23:24:59,454] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/fonts/material-icons.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 223
+[2019-02-19 23:24:59,454] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zeromail.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 224
+[2019-02-19 23:24:59,454] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.multi.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 225
+[2019-02-19 23:24:59,455] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/images/favicon.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 226
+[2019-02-19 23:24:59,455] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/images/icons/bitbucket.1b09e088.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 227
+[2019-02-19 23:24:59,455] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/site_development/content_json/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 228
+[2019-02-19 23:24:59,455] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/img/zerohello-old.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 229
+[2019-02-19 23:24:59,456] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/images/favicon.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 230
+[2019-02-19 23:24:59,456] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.sv.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 231
+[2019-02-19 23:24:59,456] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/site_development/content_json/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 232
+[2019-02-19 23:24:59,456] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.fr.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 233
+[2019-02-19 23:24:59,456] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.fr.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 234
+[2019-02-19 23:24:59,457] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 235
+[2019-02-19 23:24:59,457] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/fonts/roboto-v18-latin-ext_latin-300.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 236
+[2019-02-19 23:24:59,457] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/specimen/FontAwesome.ttf, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 237
+[2019-02-19 23:24:59,457] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/stylesheets/application-palette.22915126.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 238
+[2019-02-19 23:24:59,457] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/application.9e1f3b71.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 239
+[2019-02-19 23:24:59,457] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/fonts/material-icons.css, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 240
+[2019-02-19 23:24:59,458] DEBUG    WorkerManager:1DocsY..kVv1 New task: fr/assets/javascripts/lunr/lunr.stemmer.support.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 241
+[2019-02-19 23:24:59,458] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-italic.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 242
+[2019-02-19 23:24:59,458] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zeroboard.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 243
+[2019-02-19 23:24:59,458] DEBUG    WorkerManager:1DocsY..kVv1 New task: assets/javascripts/lunr/lunr.es.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 244
+[2019-02-19 23:24:59,458] DEBUG    WorkerManager:1DocsY..kVv1 New task: site_development/cert_authority/index.html, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 245
+[2019-02-19 23:24:59,458] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zerotalk.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 246
+[2019-02-19 23:24:59,459] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/images/icons/github.f0b8504a.svg, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 247
+[2019-02-19 23:24:59,459] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/assets/javascripts/lunr/lunr.de.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 248
+[2019-02-19 23:24:59,459] DEBUG    WorkerManager:1DocsY..kVv1 New task: javascripts/menu.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 249
+[2019-02-19 23:24:59,459] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/fonts/roboto-v18-latin-ext_latin-300.woff, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 250
+[2019-02-19 23:24:59,459] DEBUG    WorkerManager:1DocsY..kVv1 New task: img/zeromail.png, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 251
+[2019-02-19 23:24:59,460] DEBUG    WorkerManager:1DocsY..kVv1 New task: zh/ZeroFrame.js, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 252
+[2019-02-19 23:24:59,460] DEBUG    WorkerManager:1DocsY..kVv1 New task: sitemap.xml, peer lock: None, priority: 0, optional_hash_id: None, tasks started: 253
+[2019-02-19 23:24:59,460] DEBUG    Site:1DocsY..kVv1 Recent peers 30 of 81 (need: 25)
+[2019-02-19 23:24:59,460] DEBUG    Site:1DocsY..kVv1 content.json loadContent same json file, skipping
+[2019-02-19 23:24:59,460] DEBUG    Site:1DocsY..kVv1 Announced in mode start to 10/12 trackers in 1.456s, errors: ['http://tracker2.itzmx.com:6961/announce', 'https://1.tracker.eu.org:443/announce'], slow: ['1.30s zero://45.77.244.56:27450']
+[2019-02-19 23:24:59,586] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: index.html
+[2019-02-19 23:24:59,666] DEBUG    ConnServer Conn#33 72.46.51.111 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:24:59,688] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: faq/index.html
+[2019-02-19 23:24:59,690] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:24:59] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/faq/?wrapper_nonce=9de5449da9a83e2eb0e1a34c626af87f8d03b628358d05df1cb92fcbdfdd78d0 HTTP/1.1" 200 48256 1.533618
+[2019-02-19 23:25:00,034] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: stylesheets/menu.css
+[2019-02-19 23:25:00,038] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/stylesheets/menu.css HTTP/1.1" 200 783 0.241956
+[2019-02-19 23:25:00,229] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/stylesheets/application-palette.22915126.css
+[2019-02-19 23:25:00,233] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/stylesheets/application-palette.22915126.css HTTP/1.1" 200 44964 0.441941
+[2019-02-19 23:25:00,266] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/javascripts/modernizr.20ef595d.js
+[2019-02-19 23:25:00,268] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/javascripts/modernizr.20ef595d.js HTTP/1.1" 200 7228 0.465066
+[2019-02-19 23:25:00,321] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: docs.css
+[2019-02-19 23:25:00,322] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/docs.css HTTP/1.1" 200 3519 0.529134
+[2019-02-19 23:25:00,409] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/stylesheets/application.11e41852.css
+[2019-02-19 23:25:00,411] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/stylesheets/application.11e41852.css HTTP/1.1" 200 95722 0.622188
+[2019-02-19 23:25:00,501] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/fonts/material-icons.css
+[2019-02-19 23:25:00,503] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/fonts/material-icons.css HTTP/1.1" 200 1136 0.711063
+[2019-02-19 23:25:00,584] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: zh/search/search_index.json
+[2019-02-19 23:25:00,586] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: search/search_index.json
+[2019-02-19 23:25:00,632] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/javascripts/application.9e1f3b71.js
+[2019-02-19 23:25:00,636] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/javascripts/application.9e1f3b71.js HTTP/1.1" 200 91377 0.597956
+[2019-02-19 23:25:00,674] DEBUG    ConnServer Conn#34 82.255.120.78 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:25:00,676] DEBUG    ConnServer Conn#35 79.136.109.29 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:25:00,677] DEBUG    ConnServer Conn#36 114.34.196.84 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:25:00,678] DEBUG    ConnServer Conn#37 95.61.17.91  [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:25:00,679] DEBUG    ConnServer Conn#38 212.109.223.115 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:25:00,680] DEBUG    ConnServer Conn#39 94.242.58.32 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:25:00,680] DEBUG    ConnServer Conn#40 193.183.98.77 [?] > Connecting... (site: Site 1DocsY..kVv1)
+[2019-02-19 23:25:00,777] DEBUG    ConnServer Conn#35 79.136.109.29 [?] > Crypt connection error: EOF occurred in violation of protocol (_ssl.c:590), adding ip 79.136.109.29 as broken ssl.
+[2019-02-19 23:25:00,817] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: ZeroFrame.js
+[2019-02-19 23:25:00,819] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/ZeroFrame.js HTTP/1.1" 200 3925 0.585630
+[2019-02-19 23:25:00,827] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: docs.js
+[2019-02-19 23:25:00,829] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/docs.js HTTP/1.1" 200 2422 0.505757
+[2019-02-19 23:25:00,888] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fonts/roboto-v18-latin-ext_latin-700.woff2
+[2019-02-19 23:25:00,891] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-v18-latin-ext_latin-700.woff2 HTTP/1.1" 200 22419 0.342914
+[2019-02-19 23:25:00,908] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: fr/search/search_index.json
+[2019-02-19 23:25:00,912] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: jquery.min.js
+[2019-02-19 23:25:00,916] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/jquery.min.js HTTP/1.1" 200 84599 0.647124
+[2019-02-19 23:25:00,992] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: javascripts/menu.js
+[2019-02-19 23:25:00,994] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:00] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/javascripts/menu.js HTTP/1.1" 200 2080 0.582599
+[2019-02-19 23:25:01,008] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fonts/roboto-mono-v5-latin-ext_latin-regular.woff2
+[2019-02-19 23:25:01,010] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-mono-v5-latin-ext_latin-regular.woff2 HTTP/1.1" 200 21471 0.439767
+[2019-02-19 23:25:01,063] DEBUG    ConnServer Conn#38 212.109.223.115 [?] > Crypt connection error: EOF occurred in violation of protocol (_ssl.c:590), adding ip 212.109.223.115 as broken ssl.
+[2019-02-19 23:25:01,114] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: assets/fonts/specimen/MaterialIcons-Regular.woff2
+[2019-02-19 23:25:01,119] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/fonts/specimen/MaterialIcons-Regular.woff2 HTTP/1.1" 200 44603 0.414629
+[2019-02-19 23:25:01,162] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: fonts/roboto-v18-latin-ext_latin-300.woff2
+[2019-02-19 23:25:01,163] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-v18-latin-ext_latin-300.woff2 HTTP/1.1" 200 22243 0.617268
+[2019-02-19 23:25:01,211] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: fonts/roboto-v18-latin-ext_latin-700.woff
+[2019-02-19 23:25:01,213] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-v18-latin-ext_latin-700.woff HTTP/1.1" 200 28562 0.285678
+[2019-02-19 23:25:01,226] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: logo/zeronet_logo.svg
+[2019-02-19 23:25:01,228] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/logo/zeronet_logo.svg HTTP/1.1" 200 1304 0.724273
+[2019-02-19 23:25:01,228] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fonts/roboto-mono-v5-latin-ext_latin-regular.woff
+[2019-02-19 23:25:01,230] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-mono-v5-latin-ext_latin-regular.woff HTTP/1.1" 200 26338 0.184637
+[2019-02-19 23:25:01,238] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: assets/fonts/specimen/MaterialIcons-Regular.woff
+[2019-02-19 23:25:01,241] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/fonts/specimen/MaterialIcons-Regular.woff HTTP/1.1" 200 57922 0.095411
+[2019-02-19 23:25:01,242] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: fonts/roboto-v18-latin-ext_latin-regular.woff2
+[2019-02-19 23:25:01,244] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-v18-latin-ext_latin-regular.woff2 HTTP/1.1" 200 22223 0.706780
+[2019-02-19 23:25:01,358] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: assets/fonts/specimen/MaterialIcons-Regular.ttf
+[2019-02-19 23:25:01,360] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/assets/fonts/specimen/MaterialIcons-Regular.ttf HTTP/1.1" 200 128482 0.074138
+[2019-02-19 23:25:01,428] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: fonts/roboto-v18-latin-ext_latin-300.woff
+[2019-02-19 23:25:01,429] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-v18-latin-ext_latin-300.woff HTTP/1.1" 200 28618 0.233537
+[2019-02-19 23:25:01,448] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fonts/roboto-v18-latin-ext_latin-regular.woff
+[2019-02-19 23:25:01,450] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:01] "GET /1DocsYf2tZVVMEMJFHiDsppmFicZCWkVv1/fonts/roboto-v18-latin-ext_latin-regular.woff HTTP/1.1" 200 28538 0.162952
+[2019-02-19 23:25:01,512] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: zh/help_zeronet/coding_conventions/index.html
+[2019-02-19 23:25:01,534] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/img/zerotalk-old.png
+[2019-02-19 23:25:01,546] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/images/icons/gitlab.6dd19c00.svg
+[2019-02-19 23:25:01,568] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-regular.woff
+[2019-02-19 23:25:01,569] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/docs.js
+[2019-02-19 23:25:01,573] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/images/icons/bitbucket.1b09e088.svg
+[2019-02-19 23:25:01,587] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/javascripts/lunr/lunr.ro.js
+[2019-02-19 23:25:01,599] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/bitcoinbar/bitcoinbar.js
+[2019-02-19 23:25:01,608] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/assets/fonts/specimen/FontAwesome.woff
+[2019-02-19 23:25:01,610] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: assets/javascripts/lunr/lunr.hu.js
+[2019-02-19 23:25:01,635] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-regular.woff
+[2019-02-19 23:25:01,638] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: fr/assets/stylesheets/application-palette.22915126.css
+[2019-02-19 23:25:01,640] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: site_development/getting_started/index.html
+[2019-02-19 23:25:01,657] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: fr/img/zeroblog.png
+[2019-02-19 23:25:01,684] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/assets/javascripts/lunr/lunr.ro.js
+[2019-02-19 23:25:01,699] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/assets/javascripts/lunr/lunr.hu.js
+[2019-02-19 23:25:01,708] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/fonts/specimen/FontAwesome.ttf
+[2019-02-19 23:25:01,709] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-300.woff2
+[2019-02-19 23:25:01,775] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: zh/404.html
+[2019-02-19 23:25:01,802] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: img/zerotalk-old.png
+[2019-02-19 23:25:01,808] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: zh/index.html
+[2019-02-19 23:25:01,810] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/assets/images/icons/github.f0b8504a.svg
+[2019-02-19 23:25:01,812] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/using_zeronet/sample_sites/index.html
+[2019-02-19 23:25:01,817] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: logo/favicon.ico
+[2019-02-19 23:25:01,830] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/fonts/font-awesome.css
+[2019-02-19 23:25:01,837] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/sitemap.xml
+[2019-02-19 23:25:01,843] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: zh/assets/images/icons/gitlab.6dd19c00.svg
+[2019-02-19 23:25:01,868] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/assets/stylesheets/application.11e41852.css
+[2019-02-19 23:25:01,908] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: bitcoinbar/bitcoinbar.js
+[2019-02-19 23:25:01,914] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-regular.woff2
+[2019-02-19 23:25:01,925] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/img/zeroboard.png
+[2019-02-19 23:25:01,927] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: assets/images/favicon.png
+[2019-02-19 23:25:01,959] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: img/zerochat.png
+[2019-02-19 23:25:01,973] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: assets/javascripts/lunr/tinyseg.js
+[2019-02-19 23:25:02,018] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/fonts/specimen/MaterialIcons-Regular.ttf
+[2019-02-19 23:25:02,051] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/docs.js
+[2019-02-19 23:25:02,061] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: fr/assets/images/icons/gitlab.6dd19c00.svg
+[2019-02-19 23:25:02,115] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/img/zerohello-old.png
+[2019-02-19 23:25:02,127] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/site_development/cert_authority/index.html
+[2019-02-19 23:25:02,134] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/img/zerotalk.png
+[2019-02-19 23:25:02,150] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: zh/help_zeronet/network_protocol/index.html
+[2019-02-19 23:25:02,192] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/assets/javascripts/lunr/lunr.sv.js
+[2019-02-19 23:25:02,197] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: img/zerohello.png
+[2019-02-19 23:25:02,212] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/logo/favicon.ico
+[2019-02-19 23:25:02,216] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/images/icons/bitbucket.1b09e088.svg
+[2019-02-19 23:25:02,220] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: zh/stylesheets/menu.css
+[2019-02-19 23:25:02,222] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/assets/javascripts/lunr/lunr.it.js
+[2019-02-19 23:25:02,242] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: fonts/roboto-v18-latin-ext_latin-italic.woff
+[2019-02-19 23:25:02,256] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/logo/zeronet_logo.svg
+[2019-02-19 23:25:02,271] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fr/img/zerome.png
+[2019-02-19 23:25:02,274] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: fr/stylesheets/menu.css
+[2019-02-19 23:25:02,309] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: assets/javascripts/lunr/lunr.multi.js
+[2019-02-19 23:25:02,323] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/assets/javascripts/lunr/tinyseg.js
+[2019-02-19 23:25:02,325] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/sitemap.xml
+[2019-02-19 23:25:02,328] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/assets/javascripts/lunr/lunr.es.js
+[2019-02-19 23:25:02,337] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-italic.woff
+[2019-02-19 23:25:02,361] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: assets/javascripts/lunr/lunr.sv.js
+[2019-02-19 23:25:02,364] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/site_development/getting_started/index.html
+[2019-02-19 23:25:02,367] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: fr/assets/javascripts/lunr/lunr.it.js
+[2019-02-19 23:25:02,376] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/assets/javascripts/lunr/lunr.du.js
+[2019-02-19 23:25:02,377] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-700.woff2
+[2019-02-19 23:25:02,391] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/img/zerochat.png
+[2019-02-19 23:25:02,393] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/logo/zeronet_logo.svg
+[2019-02-19 23:25:02,395] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: zh/fonts/roboto-mono-v5-latin-ext_latin-regular.woff2
+[2019-02-19 23:25:02,398] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: assets/javascripts/lunr/lunr.no.js
+[2019-02-19 23:25:02,415] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: zh/assets/javascripts/lunr/lunr.da.js
+[2019-02-19 23:25:02,423] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: fr/fonts/roboto-mono-v5-latin-ext_latin-regular.woff
+[2019-02-19 23:25:02,456] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/assets/fonts/specimen/MaterialIcons-Regular.woff
+[2019-02-19 23:25:02,460] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: fr/img/zerochat.png
+[2019-02-19 23:25:02,463] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: fr/javascripts/menu.js
+[2019-02-19 23:25:02,465] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: assets/javascripts/lunr/lunr.stemmer.support.js
+[2019-02-19 23:25:02,467] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: assets/javascripts/lunr/lunr.fi.js
+[2019-02-19 23:25:02,475] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/img/zerotalk.png
+[2019-02-19 23:25:02,485] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: img/zerohello-old.png
+[2019-02-19 23:25:02,486] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: using_zeronet/sample_sites/index.html
+[2019-02-19 23:25:02,513] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: site_development/dbschema_json/index.html
+[2019-02-19 23:25:02,549] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/stylesheets/application.11e41852.css
+[2019-02-19 23:25:02,552] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/fonts/roboto-mono-v5-latin-ext_latin-regular.woff2
+[2019-02-19 23:25:02,555] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: zh/assets/javascripts/lunr/lunr.fi.js
+[2019-02-19 23:25:02,560] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: zh/img/zeroblog.png
+[2019-02-19 23:25:02,562] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: help_zeronet/coding_conventions/index.html
+[2019-02-19 23:25:02,604] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/jquery.min.js
+[2019-02-19 23:25:02,632] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: img/zeroblog.png
+[2019-02-19 23:25:02,639] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/translation/index.html
+[2019-02-19 23:25:02,668] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: help_zeronet/network_protocol/index.html
+[2019-02-19 23:25:02,670] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fr/ZeroFrame.js
+[2019-02-19 23:25:02,722] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: zh/img/domain.png
+[2019-02-19 23:25:02,733] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/site_development/dbschema_json/index.html
+[2019-02-19 23:25:02,736] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/docs.css
+[2019-02-19 23:25:02,771] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: zh/assets/javascripts/lunr/lunr.pt.js
+[2019-02-19 23:25:02,773] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/assets/javascripts/lunr/lunr.jp.js
+[2019-02-19 23:25:02,786] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/fonts/specimen/MaterialIcons-Regular.woff2
+[2019-02-19 23:25:02,788] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: fonts/roboto-v18-latin-ext_latin-italic.woff2
+[2019-02-19 23:25:02,794] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: zh/assets/javascripts/lunr/lunr.tr.js
+[2019-02-19 23:25:02,813] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: site_development/content_json/index.html
+[2019-02-19 23:25:02,822] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/fonts/material-icons.css
+[2019-02-19 23:25:02,825] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: fr/assets/javascripts/lunr/lunr.fi.js
+[2019-02-19 23:25:02,883] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/assets/fonts/specimen/MaterialIcons-Regular.ttf
+[2019-02-19 23:25:02,885] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fr/translation/index.html
+[2019-02-19 23:25:02,887] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: fr/assets/javascripts/lunr/lunr.no.js
+[2019-02-19 23:25:02,892] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: fr/img/zeromail.png
+[2019-02-19 23:25:02,894] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/assets/javascripts/lunr/lunr.jp.js
+[2019-02-19 23:25:02,895] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: zh/assets/javascripts/lunr/lunr.es.js
+[2019-02-19 23:25:02,898] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: assets/javascripts/lunr/lunr.tr.js
+[2019-02-19 23:25:02,919] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: assets/javascripts/lunr/lunr.da.js
+[2019-02-19 23:25:02,935] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/help_zeronet/contributing/index.html
+[2019-02-19 23:25:02,951] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: zh/faq/index.html
+[2019-02-19 23:25:03,003] DEBUG    User:16zSV7z8Y4AWAEpoNYnsjX4iceaeqTPa1t Saved in 0.044s
+[2019-02-19 23:25:03,006] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/using_zeronet/create_new_site/index.html
+[2019-02-19 23:25:03,008] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: zh/logo/favicon.ico
+[2019-02-19 23:25:03,010] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: img/reactiongifs.jpg
+[2019-02-19 23:25:03,012] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/img/reactiongifs.jpg
+[2019-02-19 23:25:03,014] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: assets/images/icons/github.f0b8504a.svg
+[2019-02-19 23:25:03,042] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/site_development/zeroframe_api_reference/index.html
+[2019-02-19 23:25:03,044] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fr/assets/javascripts/lunr/lunr.ru.js
+[2019-02-19 23:25:03,048] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/404.html
+[2019-02-19 23:25:03,050] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/assets/javascripts/modernizr.20ef595d.js
+[2019-02-19 23:25:03,063] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/img/domain.png
+[2019-02-19 23:25:03,073] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: zh/img/zerotalk-old.png
+[2019-02-19 23:25:03,093] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/assets/fonts/specimen/MaterialIcons-Regular.woff
+[2019-02-19 23:25:03,096] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/help_zeronet/donate/index.html
+[2019-02-19 23:25:03,104] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-italic.woff2
+[2019-02-19 23:25:03,107] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: assets/javascripts/lunr/lunr.ru.js
+[2019-02-19 23:25:03,114] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/bitcoinbar/bitcoinbar.css
+[2019-02-19 23:25:03,152] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: img/zerome.png
+[2019-02-19 23:25:03,155] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/assets/javascripts/lunr/lunr.no.js
+[2019-02-19 23:25:03,177] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/site_development/zeroframe_api_reference/index.html
+[2019-02-19 23:25:03,181] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: assets/javascripts/lunr/lunr.du.js
+[2019-02-19 23:25:03,182] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/assets/javascripts/lunr/lunr.da.js
+[2019-02-19 23:25:03,184] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: zh/assets/javascripts/lunr/lunr.stemmer.support.js
+[2019-02-19 23:25:03,186] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: zh/img/reactiongifs.jpg
+[2019-02-19 23:25:03,191] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: zh/using_zeronet/create_new_site/index.html
+[2019-02-19 23:25:03,193] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-regular.woff2
+[2019-02-19 23:25:03,195] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: zh/fonts/roboto-mono-v5-latin-ext_latin-regular.woff
+[2019-02-19 23:25:03,206] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: assets/fonts/font-awesome.css
+[2019-02-19 23:25:03,281] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/img/zerohello.png
+[2019-02-19 23:25:03,285] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/img/zeroboard.png
+[2019-02-19 23:25:03,289] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-700.woff2
+[2019-02-19 23:25:03,314] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: fr/assets/javascripts/application.9e1f3b71.js
+[2019-02-19 23:25:03,345] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/fonts/specimen/FontAwesome.ttf
+[2019-02-19 23:25:03,350] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/assets/fonts/specimen/FontAwesome.woff2
+[2019-02-19 23:25:03,352] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: fr/sitemap.xml.gz
+[2019-02-19 23:25:03,381] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/assets/javascripts/lunr/lunr.ru.js
+[2019-02-19 23:25:03,398] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/using_zeronet/sample_sites/index.html
+[2019-02-19 23:25:03,414] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/site_development/cert_authority/index.html
+[2019-02-19 23:25:03,424] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/fonts/specimen/FontAwesome.woff
+[2019-02-19 23:25:03,426] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: assets/javascripts/lunr/lunr.de.js
+[2019-02-19 23:25:03,428] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: 404.html
+[2019-02-19 23:25:03,456] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: zh/assets/javascripts/lunr/lunr.multi.js
+[2019-02-19 23:25:03,457] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/help_zeronet/coding_conventions/index.html
+[2019-02-19 23:25:03,461] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/img/zerome.png
+[2019-02-19 23:25:03,490] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: fr/jquery.min.js
+[2019-02-19 23:25:03,492] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: assets/javascripts/lunr/lunr.it.js
+[2019-02-19 23:25:03,494] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/javascripts/menu.js
+[2019-02-19 23:25:03,508] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-700.woff
+[2019-02-19 23:25:03,510] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/fonts/font-awesome.css
+[2019-02-19 23:25:03,523] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-300.woff2
+[2019-02-19 23:25:03,524] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: help_zeronet/contributing/index.html
+[2019-02-19 23:25:03,542] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/assets/javascripts/lunr/tinyseg.js
+[2019-02-19 23:25:03,555] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/assets/fonts/specimen/FontAwesome.woff2
+[2019-02-19 23:25:03,557] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/assets/javascripts/lunr/lunr.du.js
+[2019-02-19 23:25:03,559] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: help_zeronet/donate/index.html
+[2019-02-19 23:25:03,569] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: using_zeronet/installing/index.html
+[2019-02-19 23:25:03,574] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: assets/javascripts/lunr/lunr.pt.js
+[2019-02-19 23:25:03,578] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: fr/site_development/getting_started/index.html
+[2019-02-19 23:25:03,585] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: zh/help_zeronet/donate/index.html
+[2019-02-19 23:25:03,588] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: assets/javascripts/lunr/lunr.jp.js
+[2019-02-19 23:25:03,619] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/docs.css
+[2019-02-19 23:25:03,631] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/javascripts/lunr/lunr.tr.js
+[2019-02-19 23:25:03,634] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/assets/javascripts/lunr/lunr.pt.js
+[2019-02-19 23:25:03,643] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: zh/help_zeronet/contributing/index.html
+[2019-02-19 23:25:03,645] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: translation/index.html
+[2019-02-19 23:25:03,669] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: fr/using_zeronet/installing/index.html
+[2019-02-19 23:25:03,673] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/faq/index.html
+[2019-02-19 23:25:03,676] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: img/domain.png
+[2019-02-19 23:25:03,690] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: assets/fonts/specimen/FontAwesome.woff
+[2019-02-19 23:25:03,696] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/site_development/dbschema_json/index.html
+[2019-02-19 23:25:03,699] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: using_zeronet/create_new_site/index.html
+[2019-02-19 23:25:03,704] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: assets/javascripts/lunr/lunr.fr.js
+[2019-02-19 23:25:03,707] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: assets/fonts/specimen/FontAwesome.woff2
+[2019-02-19 23:25:03,708] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/assets/javascripts/lunr/lunr.ro.js
+[2019-02-19 23:25:03,718] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: zh/assets/javascripts/lunr/lunr.hu.js
+[2019-02-19 23:25:03,720] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: zh/sitemap.xml.gz
+[2019-02-19 23:25:03,722] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: sitemap.xml.gz
+[2019-02-19 23:25:03,753] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-italic.woff2
+[2019-02-19 23:25:03,763] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/javascripts/modernizr.20ef595d.js
+[2019-02-19 23:25:03,783] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/assets/fonts/specimen/MaterialIcons-Regular.woff2
+[2019-02-19 23:25:03,798] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/assets/javascripts/lunr/lunr.de.js
+[2019-02-19 23:25:03,801] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: fr/img/zerohello.png
+[2019-02-19 23:25:03,830] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-700.woff
+[2019-02-19 23:25:03,840] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: zh/img/zeromail.png
+[2019-02-19 23:25:03,856] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: zh/using_zeronet/installing/index.html
+[2019-02-19 23:25:03,858] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: fr/assets/javascripts/lunr/lunr.multi.js
+[2019-02-19 23:25:03,880] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: zh/bitcoinbar/bitcoinbar.js
+[2019-02-19 23:25:03,887] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: zh/assets/images/favicon.png
+[2019-02-19 23:25:03,891] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: assets/images/icons/bitbucket.1b09e088.svg
+[2019-02-19 23:25:03,894] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/help_zeronet/network_protocol/index.html
+[2019-02-19 23:25:03,900] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/assets/images/favicon.png
+[2019-02-19 23:25:03,924] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/site_development/content_json/index.html
+[2019-02-19 23:25:03,928] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: fr/index.html
+[2019-02-19 23:25:03,941] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: assets/fonts/specimen/FontAwesome.ttf
+[2019-02-19 23:25:03,944] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: site_development/zeroframe_api_reference/index.html
+[2019-02-19 23:25:03,945] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: zh/bitcoinbar/bitcoinbar.css
+[2019-02-19 23:25:03,947] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: fr/assets/javascripts/lunr/lunr.fr.js
+[2019-02-19 23:25:03,970] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: fr/assets/fonts/material-icons.css
+[2019-02-19 23:25:03,975] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: zh/assets/javascripts/lunr/lunr.fr.js
+[2019-02-19 23:25:03,996] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/stylesheets/application-palette.22915126.css
+[2019-02-19 23:25:04,005] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: fr/fonts/roboto-v18-latin-ext_latin-300.woff
+[2019-02-19 23:25:04,013] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: bitcoinbar/bitcoinbar.css
+[2019-02-19 23:25:04,015] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: fr/assets/javascripts/lunr/lunr.stemmer.support.js
+[2019-02-19 23:25:04,020] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: zh/img/zerohello-old.png
+[2019-02-19 23:25:04,042] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: Verify correct: assets/javascripts/lunr/lunr.es.js
+[2019-02-19 23:25:04,057] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: Verify correct: zh/assets/javascripts/application.9e1f3b71.js
+[2019-02-19 23:25:04,058] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: Verify correct: zh/assets/images/icons/github.f0b8504a.svg
+[2019-02-19 23:25:04,060] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: Verify correct: fr/assets/javascripts/lunr/lunr.sv.js
+[2019-02-19 23:25:04,078] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: Verify correct: img/zerotalk.png
+[2019-02-19 23:25:04,089] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: Verify correct: img/zeromail.png
+[2019-02-19 23:25:04,096] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: Verify correct: img/zeroboard.png
+[2019-02-19 23:25:04,112] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-italic.woff
+[2019-02-19 23:25:04,124] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: Verify correct: fr/site_development/content_json/index.html
+[2019-02-19 23:25:04,128] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: Verify correct: zh/assets/javascripts/lunr/lunr.de.js
+[2019-02-19 23:25:04,193] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: Verify correct: sitemap.xml
+[2019-02-19 23:25:04,222] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: Verify correct: site_development/cert_authority/index.html
+[2019-02-19 23:25:04,254] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:04] "GET /Websocket?wrapper_key=4ff556a426402636f11604d05d82f606b4b9fe4492c5eba043dbd4f95b654864 HTTP/1.1" 101 129 6.011542
+[2019-02-19 23:25:04,274] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: Verify correct: zh/fonts/roboto-v18-latin-ext_latin-300.woff
+[2019-02-19 23:25:04,291] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:04] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/ HTTP/1.1" 200 4880 0.000789
+[2019-02-19 23:25:04,377] DEBUG    WorkerManager:1DocsY..kVv1 114.34.196.84:33519: Verify correct: zh/ZeroFrame.js
+[2019-02-19 23:25:04,449] DEBUG    Ui.UiServer 127.0.0.1 - - [2019-02-19 23:25:04] "GET /1HeLLo4uzjaLetFx6NH3PMwFP3qbRbTf3D/?wrapper_nonce=d8004ea9e5757a719b260f7092458c9780b2db580c9fb88e2927078ca7fca518 HTTP/1.1" 200 1654 0.001101
+[2019-02-19 23:25:04,478] DEBUG    WorkerManager:1DocsY..kVv1 114.34.196.84:33519: No task found, stopping
+[2019-02-19 23:25:04,478] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 15/5
+[2019-02-19 23:25:04,478] DEBUG    WorkerManager:1DocsY..kVv1 Check complete: No tasks
+[2019-02-19 23:25:04,483] DEBUG    WorkerManager:1DocsY..kVv1 95.61.17.91:22059: No task found, stopping
+[2019-02-19 23:25:04,483] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 14/5
+[2019-02-19 23:25:04,494] DEBUG    WorkerManager:1DocsY..kVv1 82.255.120.78:15633: No task found, stopping
+[2019-02-19 23:25:04,495] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 13/5
+[2019-02-19 23:25:04,496] DEBUG    WorkerManager:1DocsY..kVv1 72.46.51.111:13109: No task found, stopping
+[2019-02-19 23:25:04,496] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 12/5
+[2019-02-19 23:25:04,500] DEBUG    WorkerManager:1DocsY..kVv1 94.242.58.32:34836: No task found, stopping
+[2019-02-19 23:25:04,500] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 11/5
+[2019-02-19 23:25:04,516] DEBUG    WorkerManager:1DocsY..kVv1 86.173.255.190:37292: No task found, stopping
+[2019-02-19 23:25:04,516] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 10/5
+[2019-02-19 23:25:04,527] DEBUG    WorkerManager:1DocsY..kVv1 212.109.223.115:26552: No task found, stopping
+[2019-02-19 23:25:04,527] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 9/5
+[2019-02-19 23:25:04,529] DEBUG    WorkerManager:1DocsY..kVv1 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:25:04,529] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 8/5
+[2019-02-19 23:25:04,531] DEBUG    WorkerManager:1DocsY..kVv1 23.92.215.35:13069: No task found, stopping
+[2019-02-19 23:25:04,532] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 7/5
+[2019-02-19 23:25:04,548] DEBUG    WorkerManager:1DocsY..kVv1 79.136.109.29:26552: No task found, stopping
+[2019-02-19 23:25:04,548] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 6/5
+[2019-02-19 23:25:04,562] DEBUG    WorkerManager:1DocsY..kVv1 91.121.50.14:51604: No task found, stopping
+[2019-02-19 23:25:04,562] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 5/5
+[2019-02-19 23:25:04,563] DEBUG    WorkerManager:1DocsY..kVv1 193.183.98.77:12314: No task found, stopping
+[2019-02-19 23:25:04,563] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 4/5
+[2019-02-19 23:25:04,563] DEBUG    WorkerManager:1DocsY..kVv1 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:25:04,563] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 3/5
+[2019-02-19 23:25:04,577] DEBUG    WorkerManager:1DocsY..kVv1 45.77.244.56:27450: No task found, stopping
+[2019-02-19 23:25:04,577] DEBUG    WorkerManager:1DocsY..kVv1 Removed worker, workers: 2/5
+[2019-02-19 23:25:04,703] DEBUG    SiteManager Loading sites...
+[2019-02-19 23:25:04,704] DEBUG    ContentFilterStorage Loaded 0 mutes, 0 blocked sites from 0 includes in 0.000s
+[2019-02-19 23:25:04,704] DEBUG    SiteManager Updated merger sites in 0.000s
+[2019-02-19 23:25:09,460] DEBUG    Site:1DocsY..kVv1 Queried listModifications from: [<Peer:91.121.50.14>, <Peer:45.63.90.174>, <Peer:190.97.163.202>, <Peer:45.77.244.56>] in 10.000s since 0
+[2019-02-19 23:25:10,207] DEBUG    WorkerManager:15DoUz..L4KK Slow task: data/users/content.json, (workers: 0, optional_hash_id: None, peers: 0, failed: 6, asked: 0)
+[2019-02-19 23:25:10,207] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:25:10,208] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 1/5
+[2019-02-19 23:25:10,208] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 128.65.247.206:15441, workers: 2/5
+[2019-02-19 23:25:10,208] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 3/5
+[2019-02-19 23:25:10,208] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:25:10,209] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 5/5
+[2019-02-19 23:25:10,310] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:25:10,310] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:25:10,311] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:25:10,311] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:25:10,311] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:25:10,311] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:25:10,311] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:25:10,312] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:25:10,312] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:25:10,312] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:25:10,440] DEBUG    Site:15DoUz..L4KK Announced in mode more to http://open.acgnxtracker.com:80/announce in 0.231s, errors: [], slow: []
+[2019-02-19 23:25:10,472] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:25:10,473] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 1/5
+[2019-02-19 23:25:10,473] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 128.65.247.206:15441, workers: 2/5
+[2019-02-19 23:25:10,474] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 3/5
+[2019-02-19 23:25:10,474] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:25:10,474] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 5/5
+[2019-02-19 23:25:10,576] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:25:10,577] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:25:10,577] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:25:10,577] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:25:10,577] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:25:10,577] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:25:10,577] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:25:10,578] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:25:10,578] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:25:10,578] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:25:10,649] DEBUG    WorkerManager:15DoUz..L4KK Starting workers, tasks: 1, peers: 0, workers: 0
+[2019-02-19 23:25:10,649] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 51.15.54.182:21041, workers: 1/5
+[2019-02-19 23:25:10,650] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 128.65.247.206:15441, workers: 2/5
+[2019-02-19 23:25:10,650] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 24.13.90.50:18050, workers: 3/5
+[2019-02-19 23:25:10,650] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 45.63.90.174:34763, workers: 4/5
+[2019-02-19 23:25:10,650] DEBUG    WorkerManager:15DoUz..L4KK Added worker: 190.97.163.202:10443, workers: 5/5
+[2019-02-19 23:25:10,651] DEBUG    Site:15DoUz..L4KK Pex result: from 2 peers got 7 new peers.
+[2019-02-19 23:25:10,752] DEBUG    WorkerManager:15DoUz..L4KK 51.15.54.182:21041: No task found, stopping
+[2019-02-19 23:25:10,752] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 4/5
+[2019-02-19 23:25:10,753] DEBUG    WorkerManager:15DoUz..L4KK 128.65.247.206:15441: No task found, stopping
+[2019-02-19 23:25:10,753] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 3/5
+[2019-02-19 23:25:10,753] DEBUG    WorkerManager:15DoUz..L4KK 24.13.90.50:18050: No task found, stopping
+[2019-02-19 23:25:10,753] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 2/5
+[2019-02-19 23:25:10,754] DEBUG    WorkerManager:15DoUz..L4KK 45.63.90.174:34763: No task found, stopping
+[2019-02-19 23:25:10,754] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 1/5
+[2019-02-19 23:25:10,754] DEBUG    WorkerManager:15DoUz..L4KK 190.97.163.202:10443: No task found, stopping
+[2019-02-19 23:25:10,754] DEBUG    WorkerManager:15DoUz..L4KK Removed worker, workers: 0/5
+[2019-02-19 23:25:11,523] DEBUG    BroadcastServer Stopping, socket: <socket fileno=7 sock=0.0.0.0:1544>
+[2019-02-19 23:25:11,523] DEBUG    ConnServer Closing port 34411
+[2019-02-19 23:25:11,523] DEBUG    - Trying to close port 34411.
+[2019-02-19 23:25:11,523] DEBUG    BroadcastServer Stopped listening on port 1544
+[2019-02-19 23:25:11,525] DEBUG    - Trying using local ip: 192.168.1.41
+[2019-02-19 23:25:12,938] DEBUG    WorkerManager:1DocsY..kVv1 103.73.66.144:12589: Force skipping
+[2019-02-19 23:25:12,938] DEBUG    ConnServer Conn#29 103.73.66.144 [?] > Crypt connection error: Worker stopped, adding ip 103.73.66.144 as broken ssl.
+[2019-02-19 23:25:13,497] DEBUG    - Sending UPnP request to 192.168.1.254:36445...
+[2019-02-19 23:25:13,603] DEBUG    - 200
+[2019-02-19 23:25:13,627] INFO     ConnServer Closed port via upnp.
+[2019-02-19 23:25:13,627] DEBUG    ConnServer Stopping
+[2019-02-19 23:25:13,627] DEBUG    Ui.UiServer Stopping...
+[2019-02-19 23:25:13,628] DEBUG    Ui.UiServer Socket closed: 12
+[2019-02-19 23:25:13,629] DEBUG    ConnServer Stopped.
+[2019-02-19 23:25:13,729] DEBUG    Ui.UiServer Stopped.
+[2019-02-19 23:25:13,730] INFO     - All server stopped
