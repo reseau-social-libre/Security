@@ -15,5 +15,4 @@ $IPT -A OUTPUT -o $INT_IF -s $LAN_RANGE -j $ACTION
 ## Drop all spoofed
 $IPT -A INPUT -i $INT_IF -s $ip -j $ACTION
 $IPT -A OUTPUT -o $INT_IF -s $ip -j $ACTION
-done
 ## add or call your rest of script below to customize iptables ##
